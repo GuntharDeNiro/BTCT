@@ -1,1 +1,1 @@
-Latest release : Russian Roulette
+Updated 2.0.2b
