@@ -1,6 +1,3 @@
-Release v3.2 - CORE Edition: Linux/Windows/Mac/ARM 
-Patch Fixes #2019
-Ptach Fixes #2020
-Patch Fixes #2021
-Patch Fixes #2022
+Release v3.2 - GUI Edition: Linux/Windows/Mac/ARM 
+
 
