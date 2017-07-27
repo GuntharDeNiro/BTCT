@@ -1,3 +1,3 @@
-Release 3.3.4 - Poloniex/Bittrex update AllOS
+Release 3.3.4 - Poloniex/Bittrex update AllOS - Patched
 
 
