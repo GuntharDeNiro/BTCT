@@ -1,2 +1,2 @@
-Release 3.3.5 - Poloniex/Bittrex update AllOSx64
+Release 4.0.1 - Poloniex/Bittrex/Kraken/Cryptopia AllOSx64 - Core Edition.
 
