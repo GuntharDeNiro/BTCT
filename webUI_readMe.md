@@ -4,7 +4,7 @@ Work in progress
 - This will return this.Ask and this.Bid in the "message"
 - We listen to the "message" on port we set in ws section in Gunbot config.js
 
-'''javascript
+```javascript
 ws = new WebSocket('wss://127.0.0.1:5000/?gui=native', {
 		rejectUnauthorized: false
 	});
@@ -20,4 +20,4 @@ ws = new WebSocket('wss://127.0.0.1:5000/?gui=native', {
 	console.log(data);
 
 	});
-'''
+```
