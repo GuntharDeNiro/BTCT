@@ -30,3 +30,26 @@ When an error is caught, Gunbot emits a message like this:
 ```
 
 So every wss message will have its own catch message if try method fails
+
+- List of actually present events, new events will be added with v5.0.6 (if you want/need other events emitted, post them in the issue tracker as feature request)
+
+```javascript
+this.ws('getting_balances', data);
+this.ws('gettting_trade_history', data);
+this.ws('getting_open_orders');
+this.ws('getting_public_trade_history', [this.getLedger().priceToBuy, this.getLedger().priceToSell]);
+this.ws('getting_ta', [this.highBB,this.lowBB,this.smas]);
+this.ws('sell_panic');
+this.ws('sell_trade', [amountToSell, priceToSellNow]);
+this.ws('message', 'STOP LIMIT REACHED!!! SELLING ALL YOUR ASSETS');
+this.ws('sell_trailing_stop', [quoteBalance, this.Ask]);
+this.ws('message', gunbotcallbacksell);
+this.ws('message', 'WARNING: we couldnt get a BOUGHT PRICE');
+this.ws('getting_ema_1', [ema1]);
+this.ws('getting_ema_2', [ema2]);
+this.ws('buy_trade', [quoteAmountToBuy, this.Ask]);
+this.ws('message', thismessage);
+this.ws('message', thismessage2);
+this.ws('message', 'No btc');
+this.ws('message', 'No new opportunities found');
+```
