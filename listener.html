@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Gunthy - viewer</title>
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/css/jquery.dynatable.css">
+
+    <style type="text/css">
+        body {
+            padding-top: 70px;
+        }
+
+
+        .container {
+            width: 100%;
+        }
+
+        th a {
+            color: #337ab7;
+        }
+
+        .equal {
+            display: flex;
+            display: -webkit-flex;
+            flex-wrap: wrap;
+        }
+
+        .messages-wrapper {
+            height: 380px;
+            overflow-y: scroll;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .error-message {
+            color:red;
+        }
+
+        select {
+            width: 200px;
+        }
+
+        .pair-select-menu {
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        #select-pair-button {
+            margin-left: 10px;
+        }
+
+    </style>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="application/javascript" src="/js/jquery.dynatable.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Gunthy</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Viewer</a></li>
+                <li><a href="/configurator.html">Configurator</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row pair-select-menu">
+
+        <div class="col-md-6">
+            <select onchange="exchangeSelected()" id="exchange-select">
+                <option value=""></option>
+                <option value="poloniex">poloniex</option>
+                <option value="bittrex">bittrex</option>
+                <option value="cryptopia">cryptopia</option>
+                <option value="kraken">kraken</option>
+            </select>
+
+            <select id="pair-select" disabled></select>
+
+            <button id="select-pair-button" class="btn btn-primary" onclick="pairSelected()">Change</button>
+        </div>
+
+        <div class="col-md-2">
+            <button id="trading-history-button" class="btn btn-primary" onclick="changeView()">View trading history</button>
+        </div>
+
+        <div class="col-md-4">
+            <div>Currently selected: <strong>exchange</strong> <span id="current-exchange">none</span>, <strong>pair</strong> <span id="current-pair">none</span></div>
+        </div>
+
+    </div>
+
+    <script type="application/javascript">
+        $("#exchange-select").select2({allowClear: true, placeholder: "Select exchange" });
+        $("#pair-select").select2({allowClear: true, placeholder: "Select pair" });
+
+        function changeView() {
+            if($("#container-all").is(":visible")) {
+                $("#container-all").hide();
+                $("#container-trading-history").show();
+                $("#trading-history-button").text("View all");
+            } else {
+                $("#container-all").show();
+                $("#container-trading-history").hide();
+                $("#trading-history-button").text("View trading history");
+            }
+        }
+
+        function exchangeSelected() {
+
+            $.get('/get_pairs/' + $("#exchange-select").val(), {}, function (pairs) {
+                console.log(pairs);
+
+                $("#pair-select").prop("disabled", false);
+                $("#pair-select").select2("destroy");
+                $("#pair-select").html("");
+
+                for (var i = 0; i < pairs.length; i++) {
+                    $("#pair-select").append("<option value\"" + pairs[i] + "\">" + pairs[i] + "</option>");
+                }
+
+                $("#pair-select").select2({allowClear: true, placeholder: "Select pair" });
+
+
+            }, 'json');
+            
+        }
+        
+        function pairSelected() {
+            window.location.href = "/listener/" + $("#exchange-select").val() + "/" + $("#pair-select").val();
+        }
+
+        var urlParts = window.location.href.split("/").filter(function(n){ return n !== "" });
+
+        if(urlParts.length > 3) {
+            var exchange = urlParts[urlParts.length - 2];
+            var pair = urlParts[urlParts.length - 1];
+
+            $("#current-exchange").text(exchange);
+            $("#current-pair").text(pair);
+
+        }
+
+
+        
+    </script>
+
+    <div id="container-all">
+        <div class="row">
+
+            <div class="col-md-3">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Order book</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <ul>
+                            <li>Ask: <span class="exchange-placeholder getting_order_book pair-placeholder price_ask">?</span></li>
+                            <li>Bid: <span class="exchange-placeholder getting_order_book pair-placeholder price_bid">?</span></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Public trade history</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <ul>
+                            <li>Buy: <span class="exchange-placeholder getting_public_trade_history pair-placeholder price_buy">?</span></li>
+                            <li>Sell: <span class="exchange-placeholder getting_public_trade_history pair-placeholder price_sell">?</span></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">ta</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <ul>
+                            <li>Price high bb: <span class="exchange-placeholder getting_ta pair-placeholder price_high_bb">?</span></li>
+                            <li>Price low bb: <span class="exchange-placeholder getting_ta pair-placeholder price_low_bb">?</span></li>
+                            <li>Price sma: <span class="exchange-placeholder getting_ta pair-placeholder price_sma">?</span></li>
+                        </ul>
+
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Sell trailing stop</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>Amount: <span class="exchange-placeholder sell_trailing_stop pair-placeholder amount">?</span></li>
+                            <li>Price: <span class="exchange-placeholder sell_trailing_stop pair-placeholder price">?</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">ema</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>ema 1: <span class="exchange-placeholder getting_ema_1 pair-placeholder ema">?</span></li>
+                            <li>ema 2: <span class="exchange-placeholder getting_ema_2 pair-placeholder ema">?</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Messages</h3>
+                    </div>
+                    <div class="panel-body messages-wrapper">
+
+                        <ul class="exchange-placeholder pair-placeholder messages_list">
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div>
+                    <h3>Balances</h3>
+
+                    <table class="table table-bordered getting_balances exchange-placeholder pair-placeholder">
+                        <thead>
+                        <th>Header</th>
+                        <th>Available</th>
+                        <th>On orders</th>
+                        <th>Btc value</th>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div>
+                    <h3>Open orders</h3>
+
+                    <table class="table table-bordered getting_open_orders exchange-placeholder pair-placeholder">
+                        <thead>
+                        <th>Order number</th>
+                        <th>Type</th>
+                        <th>Rate</th>
+                        <th>Amount</th>
+                        <th>Total</th>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+</div><!-- /.container -->
+
+<div class="container" id="container-trading-history" style="display: none;">
+
+    <h3>Trading history</h3>
+
+    <table class="table table-bordered getting_balances exchange-placeholder pair-placeholder">
+        <thead>
+        <th>Header</th>
+        <th>Available</th>
+        <th>On orders</th>
+        <th>Btc value</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+
+</div>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
+<script type="application/javascript" src="/js/listener.lib.js"></script>
+
+</body>
+</html>
