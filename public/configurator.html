@@ -120,10 +120,9 @@
 
         $(".readFormButton").click(function () {
             var d = bf.getData();
+            var dataJson = JSON.stringify(d, null, "\t");
 
-            console.log(d);
-
-            var dataJson = JSON.stringify(d);
+            console.log(dataJson);
 
             $.ajax({
                 type: "POST",

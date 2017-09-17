@@ -103,8 +103,10 @@ app.post('/updateconfig', function (req, res) {
 
     var json = req.body;
 
-    var dataJson = JSON.stringify(json);
-    fs.writeFileSync('public/config.js', dataJson, {});
+    fs.writeFileSync('public/config.js', JSON.stringify(json, null, "\t"), 'utf-8', function(err) {
+    	if (err) throw err
+    	console.log('Done!')
+    })
 
     for (var k in json.optionals.toOverride) {
         if (json.optionals.toOverride.hasOwnProperty(k)) {
@@ -160,8 +162,10 @@ app.post('/updateconfig', function (req, res) {
         }
     }
 
-    dataJson = JSON.stringify(json);
-    fs.writeFileSync('config.js', dataJson, {});
+    fs.writeFileSync('config.js', JSON.stringify(json, null, "\t"), 'utf-8', function(err) {
+    	if (err) throw err
+    	console.log('Done!')
+    })
 
     res.send("{}");
 });
