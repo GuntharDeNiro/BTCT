@@ -1,0 +1,23 @@
+{
+  "name": "gunthy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "browserify-aes": "^1.0.6",
+    "bufferutil": "^3.0.2",
+    "express": "^4.15.4",
+    "lodash": "^4.17.4",
+    "utf-8-validate": "^3.0.3",
+    "ws": "^3.1.0"
+  }
+}
