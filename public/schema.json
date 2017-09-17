@@ -601,14 +601,6 @@
               "id": "/properties/strategies/properties/gainbb/properties/LOW_BB",
               "type": "integer"
             },
-            "STDV": {
-              "id": "/properties/strategies/properties/gainbb/properties/STDV",
-              "type": "integer"
-            },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/gainbb/properties/SMA_PERIOD",
-              "type": "integer"
-            },
             "EMA1": {
               "id": "/properties/strategies/properties/gainbb/properties/EMA1",
               "type": "integer"
@@ -644,121 +636,31 @@
           },
           "type": "object"
         },
-        "bbpp": {
-          "id": "/properties/strategies/properties/bbpp",
-          "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/bbpp/properties/BTC_TRADING_LIMIT",
-              "type": "number"
-            },
-            "BUY_ENABLED": {
-              "id": "/properties/strategies/properties/bbpp/properties/BUY_ENABLED",
-              "type": "boolean"
-            },
-            "DOUBLE_UP": {
-              "id": "/properties/strategies/properties/bbpp/properties/DOUBLE_UP",
-              "type": "boolean"
-            },
-            "GAIN": {
-              "id": "/properties/strategies/properties/bbpp/properties/GAIN",
-              "type": "number"
-            },
-            "HIGH_BB": {
-              "id": "/properties/strategies/properties/bbpp/properties/HIGH_BB",
-              "type": "integer"
-            },
-            "LOW_BB": {
-              "id": "/properties/strategies/properties/bbpp/properties/LOW_BB",
-              "type": "integer"
-            },
-            "MIN_VOLUME_TO_BUY": {
-              "id": "/properties/strategies/properties/bbpp/properties/MIN_VOLUME_TO_BUY",
-              "type": "number"
-            },
-            "MIN_VOLUME_TO_SELL": {
-              "id": "/properties/strategies/properties/bbpp/properties/MIN_VOLUME_TO_SELL",
-              "type": "number"
-            },
-            "PANIC_SELL": {
-              "id": "/properties/strategies/properties/bbpp/properties/PANIC_SELL",
-              "type": "boolean"
-            },
-            "PERIOD": {
-              "id": "/properties/strategies/properties/bbpp/properties/PERIOD",
-              "type": "integer"
-            },
-            "PP_SELL": {
-              "id": "/properties/strategies/properties/bbpp/properties/PP_SELL",
-              "type": "number"
-            },
-            "STOP_LIMIT": {
-              "id": "/properties/strategies/properties/bbpp/properties/STOP_LIMIT",
-              "type": "integer"
-            }
-          },
-          "type": "object"
-        },
         "bbstepgain": {
           "id": "/properties/strategies/properties/bbstepgain",
           "properties": {
-            "AVGMINIMUM": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/AVGMINIMUM",
-              "type": "number"
-            },
-            "AVGPOINTS": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/AVGPOINTS",
-              "type": "integer"
-            },
             "BTC_TRADING_LIMIT": {
               "id": "/properties/strategies/properties/bbstepgain/properties/BTC_TRADING_LIMIT",
               "type": "number"
             },
-            "BUY_ENABLED": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/BUY_ENABLED",
-              "type": "boolean"
-            },
-            "DOUBLE_UP": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/DOUBLE_UP",
-              "type": "boolean"
-            },
-            "EMA1": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/EMA1",
-              "type": "integer"
-            },
-            "EMA2": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/EMA2",
+            "PERIOD": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/PERIOD",
               "type": "integer"
             },
             "HIGH_BB": {
               "id": "/properties/strategies/properties/bbstepgain/properties/HIGH_BB",
               "type": "integer"
             },
-            "LASTPOINTS": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/LASTPOINTS",
-              "type": "integer"
-            },
             "LOW_BB": {
               "id": "/properties/strategies/properties/bbstepgain/properties/LOW_BB",
               "type": "integer"
             },
-            "MIN_VOLUME_TO_BUY": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/MIN_VOLUME_TO_BUY",
-              "type": "number"
-            },
-            "MIN_VOLUME_TO_SELL": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/MIN_VOLUME_TO_SELL",
-              "type": "number"
-            },
-            "PANIC_SELL": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/PANIC_SELL",
-              "type": "boolean"
-            },
-            "PERIOD": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/PERIOD",
+            "STDV": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/STDV",
               "type": "integer"
             },
-            "SELLLVL": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/SELLLVL",
+            "SMA_PERIOD": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/SMA_PERIOD",
               "type": "integer"
             },
             "SELLLVL1": {
@@ -773,319 +675,53 @@
               "id": "/properties/strategies/properties/bbstepgain/properties/SELLLVL3",
               "type": "integer"
             },
+            "SELLLVL": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/SELLLVL",
+              "type": "integer"
+            },
+            "LASTPOINTS": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/LASTPOINTS",
+              "type": "integer"
+            },
+            "AVGPOINTS": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/AVGPOINTS",
+              "type": "integer"
+            },
+            "AVGMINIMUM": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/AVGMINIMUM",
+              "type": "number"
+            },
+            "EMA1": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/EMA1",
+              "type": "integer"
+            },
+            "EMA2": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/EMA2",
+              "type": "integer"
+            },
+            "PANIC_SELL": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/PANIC_SELL",
+              "type": "boolean"
+            },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/DOUBLE_UP",
+              "type": "boolean"
+            },
             "STOP_LIMIT": {
               "id": "/properties/strategies/properties/bbstepgain/properties/STOP_LIMIT",
               "type": "integer"
-            }
-          },
-          "type": "object"
-        },
-        "gainpp": {
-          "id": "/properties/strategies/properties/gainpp",
-          "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/gainpp/properties/BTC_TRADING_LIMIT",
-              "type": "number"
             },
             "BUY_ENABLED": {
-              "id": "/properties/strategies/properties/gainpp/properties/BUY_ENABLED",
+              "id": "/properties/strategies/properties/bbstepgain/properties/BUY_ENABLED",
               "type": "boolean"
             },
-            "BUY_LEVEL": {
-              "id": "/properties/strategies/properties/gainpp/properties/BUY_LEVEL",
-              "type": "number"
-            },
-            "EMA1": {
-              "id": "/properties/strategies/properties/gainpp/properties/EMA1",
-              "type": "integer"
-            },
-            "EMA2": {
-              "id": "/properties/strategies/properties/gainpp/properties/EMA2",
-              "type": "integer"
-            },
             "MIN_VOLUME_TO_BUY": {
-              "id": "/properties/strategies/properties/gainpp/properties/MIN_VOLUME_TO_BUY",
+              "id": "/properties/strategies/properties/bbstepgain/properties/MIN_VOLUME_TO_BUY",
               "type": "number"
             },
             "MIN_VOLUME_TO_SELL": {
-              "id": "/properties/strategies/properties/gainpp/properties/MIN_VOLUME_TO_SELL",
+              "id": "/properties/strategies/properties/bbstepgain/properties/MIN_VOLUME_TO_SELL",
               "type": "number"
-            },
-            "PANIC_SELL": {
-              "id": "/properties/strategies/properties/gainpp/properties/PANIC_SELL",
-              "type": "boolean"
-            },
-            "PERIOD": {
-              "id": "/properties/strategies/properties/gainpp/properties/PERIOD",
-              "type": "integer"
-            },
-            "PP_SELL": {
-              "id": "/properties/strategies/properties/gainpp/properties/PP_SELL",
-              "type": "number"
-            },
-            "STOP_LIMIT": {
-              "id": "/properties/strategies/properties/gainpp/properties/STOP_LIMIT",
-              "type": "integer"
-            }
-          },
-          "type": "object"
-        },
-        "gainstepgain": {
-          "id": "/properties/strategies/properties/gainstepgain",
-          "properties": {
-            "AVGMINIMUM": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/AVGMINIMUM",
-              "type": "number"
-            },
-            "AVGPOINTS": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/AVGPOINTS",
-              "type": "integer"
-            },
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/BTC_TRADING_LIMIT",
-              "type": "number"
-            },
-            "BUY_ENABLED": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/BUY_ENABLED",
-              "type": "boolean"
-            },
-            "BUY_LEVEL": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/BUY_LEVEL",
-              "type": "number"
-            },
-            "EMA1": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/EMA1",
-              "type": "integer"
-            },
-            "EMA2": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/EMA2",
-              "type": "integer"
-            },
-            "LASTPOINTS": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/LASTPOINTS",
-              "type": "integer"
-            },
-            "MIN_VOLUME_TO_BUY": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/MIN_VOLUME_TO_BUY",
-              "type": "number"
-            },
-            "MIN_VOLUME_TO_SELL": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/MIN_VOLUME_TO_SELL",
-              "type": "number"
-            },
-            "PANIC_SELL": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/PANIC_SELL",
-              "type": "boolean"
-            },
-            "PERIOD": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/PERIOD",
-              "type": "integer"
-            },
-            "SELLLVL": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/SELLLVL",
-              "type": "integer"
-            },
-            "SELLLVL1": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/SELLLVL1",
-              "type": "number"
-            },
-            "SELLLVL2": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/SELLLVL2",
-              "type": "number"
-            },
-            "SELLLVL3": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/SELLLVL3",
-              "type": "integer"
-            },
-            "STOP_LIMIT": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/STOP_LIMIT",
-              "type": "integer"
-            }
-          },
-          "type": "object"
-        },
-        "ppbb": {
-          "id": "/properties/strategies/properties/ppbb",
-          "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/ppbb/properties/BTC_TRADING_LIMIT",
-              "type": "number"
-            },
-            "BUY_ENABLED": {
-              "id": "/properties/strategies/properties/ppbb/properties/BUY_ENABLED",
-              "type": "boolean"
-            },
-            "DOUBLE_UP": {
-              "id": "/properties/strategies/properties/ppbb/properties/DOUBLE_UP",
-              "type": "boolean"
-            },
-            "GAIN": {
-              "id": "/properties/strategies/properties/ppbb/properties/GAIN",
-              "type": "number"
-            },
-            "HIGH_BB": {
-              "id": "/properties/strategies/properties/ppbb/properties/HIGH_BB",
-              "type": "integer"
-            },
-            "LOW_BB": {
-              "id": "/properties/strategies/properties/ppbb/properties/LOW_BB",
-              "type": "integer"
-            },
-            "MIN_VOLUME_TO_BUY": {
-              "id": "/properties/strategies/properties/ppbb/properties/MIN_VOLUME_TO_BUY",
-              "type": "number"
-            },
-            "MIN_VOLUME_TO_SELL": {
-              "id": "/properties/strategies/properties/ppbb/properties/MIN_VOLUME_TO_SELL",
-              "type": "number"
-            },
-            "PANIC_SELL": {
-              "id": "/properties/strategies/properties/ppbb/properties/PANIC_SELL",
-              "type": "boolean"
-            },
-            "PERIOD": {
-              "id": "/properties/strategies/properties/ppbb/properties/PERIOD",
-              "type": "integer"
-            },
-            "PP_BUY": {
-              "id": "/properties/strategies/properties/ppbb/properties/PP_BUY",
-              "type": "number"
-            },
-            "STOP_LIMIT": {
-              "id": "/properties/strategies/properties/ppbb/properties/STOP_LIMIT",
-              "type": "integer"
-            }
-          },
-          "type": "object"
-        },
-        "ppgain": {
-          "id": "/properties/strategies/properties/ppgain",
-          "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/ppgain/properties/BTC_TRADING_LIMIT",
-              "type": "number"
-            },
-            "BUY_ENABLED": {
-              "id": "/properties/strategies/properties/ppgain/properties/BUY_ENABLED",
-              "type": "boolean"
-            },
-            "DOUBLE_UP": {
-              "id": "/properties/strategies/properties/ppgain/properties/DOUBLE_UP",
-              "type": "boolean"
-            },
-            "EMA1": {
-              "id": "/properties/strategies/properties/ppgain/properties/EMA1",
-              "type": "integer"
-            },
-            "EMA2": {
-              "id": "/properties/strategies/properties/ppgain/properties/EMA2",
-              "type": "integer"
-            },
-            "GAIN": {
-              "id": "/properties/strategies/properties/ppgain/properties/GAIN",
-              "type": "integer"
-            },
-            "MIN_VOLUME_TO_BUY": {
-              "id": "/properties/strategies/properties/ppgain/properties/MIN_VOLUME_TO_BUY",
-              "type": "number"
-            },
-            "MIN_VOLUME_TO_SELL": {
-              "id": "/properties/strategies/properties/ppgain/properties/MIN_VOLUME_TO_SELL",
-              "type": "number"
-            },
-            "PANIC_SELL": {
-              "id": "/properties/strategies/properties/ppgain/properties/PANIC_SELL",
-              "type": "boolean"
-            },
-            "PERIOD": {
-              "id": "/properties/strategies/properties/ppgain/properties/PERIOD",
-              "type": "integer"
-            },
-            "PP_BUY": {
-              "id": "/properties/strategies/properties/ppgain/properties/PP_BUY",
-              "type": "number"
-            },
-            "STOP_LIMIT": {
-              "id": "/properties/strategies/properties/ppgain/properties/STOP_LIMIT",
-              "type": "integer"
-            }
-          },
-          "type": "object"
-        },
-        "ppstepgain": {
-          "id": "/properties/strategies/properties/ppstepgain",
-          "properties": {
-            "AVGMINIMUM": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/AVGMINIMUM",
-              "type": "number"
-            },
-            "AVGPOINTS": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/AVGPOINTS",
-              "type": "integer"
-            },
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/BTC_TRADING_LIMIT",
-              "type": "number"
-            },
-            "BUY_ENABLED": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/BUY_ENABLED",
-              "type": "boolean"
-            },
-            "DOUBLE_UP": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/DOUBLE_UP",
-              "type": "boolean"
-            },
-            "EMA1": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/EMA1",
-              "type": "integer"
-            },
-            "EMA2": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/EMA2",
-              "type": "integer"
-            },
-            "LASTPOINTS": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/LASTPOINTS",
-              "type": "integer"
-            },
-            "MIN_VOLUME_TO_BUY": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/MIN_VOLUME_TO_BUY",
-              "type": "number"
-            },
-            "MIN_VOLUME_TO_SELL": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/MIN_VOLUME_TO_SELL",
-              "type": "number"
-            },
-            "PANIC_SELL": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/PANIC_SELL",
-              "type": "boolean"
-            },
-            "PERIOD": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/PERIOD",
-              "type": "integer"
-            },
-            "PP_BUY": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/PP_BUY",
-              "type": "number"
-            },
-            "SELLLVL": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/SELLLVL",
-              "type": "integer"
-            },
-            "SELLLVL1": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/SELLLVL1",
-              "type": "integer"
-            },
-            "SELLLVL2": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/SELLLVL2",
-              "type": "integer"
-            },
-            "SELLLVL3": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/SELLLVL3",
-              "type": "integer"
-            },
-            "STOP_LIMIT": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/STOP_LIMIT",
-              "type": "integer"
             }
           },
           "type": "object"
@@ -1093,20 +729,28 @@
         "stepgainbb": {
           "id": "/properties/strategies/properties/stepgainbb",
           "properties": {
-            "AVGMINIMUM": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/AVGMINIMUM",
-              "type": "number"
-            },
-            "AVGPOINTS": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/AVGPOINTS",
-              "type": "integer"
-            },
             "BTC_TRADING_LIMIT": {
               "id": "/properties/strategies/properties/stepgainbb/properties/BTC_TRADING_LIMIT",
               "type": "number"
             },
-            "BUYLVL": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/BUYLVL",
+            "PERIOD": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/PERIOD",
+              "type": "integer"
+            },
+            "HIGH_BB": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/HIGH_BB",
+              "type": "integer"
+            },
+            "LOW_BB": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/LOW_BB",
+              "type": "integer"
+            },
+            "STDV": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/STDV",
+              "type": "integer"
+            },
+            "SMA_PERIOD": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/SMA_PERIOD",
               "type": "integer"
             },
             "BUYLVL1": {
@@ -1121,13 +765,25 @@
               "id": "/properties/strategies/properties/stepgainbb/properties/BUYLVL3",
               "type": "integer"
             },
-            "BUY_ENABLED": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/BUY_ENABLED",
-              "type": "boolean"
+            "BUYLVL": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/BUYLVL",
+              "type": "integer"
             },
-            "DOUBLE_UP": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/DOUBLE_UP",
-              "type": "boolean"
+            "GAIN": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/GAIN",
+              "type": "number"
+            },
+            "LASTPOINTS": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/LASTPOINTS",
+              "type": "integer"
+            },
+            "AVGPOINTS": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/AVGPOINTS",
+              "type": "integer"
+            },
+            "AVGMINIMUM": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/AVGMINIMUM",
+              "type": "number"
             },
             "EMA1": {
               "id": "/properties/strategies/properties/stepgainbb/properties/EMA1",
@@ -1137,17 +793,21 @@
               "id": "/properties/strategies/properties/stepgainbb/properties/EMA2",
               "type": "integer"
             },
-            "HIGH_BB": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/HIGH_BB",
+            "PANIC_SELL": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/PANIC_SELL",
+              "type": "boolean"
+            },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/DOUBLE_UP",
+              "type": "boolean"
+            },
+            "STOP_LIMIT": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/STOP_LIMIT",
               "type": "integer"
             },
-            "LASTPOINTS": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/LASTPOINTS",
-              "type": "integer"
-            },
-            "LOW_BB": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/LOW_BB",
-              "type": "integer"
+            "BUY_ENABLED": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/BUY_ENABLED",
+              "type": "boolean"
             },
             "MIN_VOLUME_TO_BUY": {
               "id": "/properties/strategies/properties/stepgainbb/properties/MIN_VOLUME_TO_BUY",
@@ -1156,18 +816,232 @@
             "MIN_VOLUME_TO_SELL": {
               "id": "/properties/strategies/properties/stepgainbb/properties/MIN_VOLUME_TO_SELL",
               "type": "number"
-            },
-            "PANIC_SELL": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/PANIC_SELL",
-              "type": "boolean"
+            }
+          },
+          "type": "object"
+        },
+        "bbpp": {
+          "id": "/properties/strategies/properties/bbpp",
+          "properties": {
+            "BTC_TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/bbpp/properties/BTC_TRADING_LIMIT",
+              "type": "number"
             },
             "PERIOD": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/PERIOD",
+              "id": "/properties/strategies/properties/bbpp/properties/PERIOD",
               "type": "integer"
             },
-            "STOP_LIMIT": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/STOP_LIMIT",
+            "GAIN": {
+              "id": "/properties/strategies/properties/bbpp/properties/GAIN",
+              "type": "number"
+            },
+            "HIGH_BB": {
+              "id": "/properties/strategies/properties/bbpp/properties/HIGH_BB",
               "type": "integer"
+            },
+            "LOW_BB": {
+              "id": "/properties/strategies/properties/bbpp/properties/LOW_BB",
+              "type": "integer"
+            },
+            "STDV": {
+              "id": "/properties/strategies/properties/bbpp/properties/STDV",
+              "type": "integer"
+            },
+            "SMA_PERIOD": {
+              "id": "/properties/strategies/properties/bbpp/properties/SMA_PERIOD",
+              "type": "integer"
+            },
+            "PP_SELL": {
+              "id": "/properties/strategies/properties/bbpp/properties/PP_SELL",
+              "type": "number"
+            },
+            "PANIC_SELL": {
+              "id": "/properties/strategies/properties/bbpp/properties/PANIC_SELL",
+              "type": "boolean"
+            },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/bbpp/properties/DOUBLE_UP",
+              "type": "boolean"
+            },
+            "STOP_LIMIT": {
+              "id": "/properties/strategies/properties/bbpp/properties/STOP_LIMIT",
+              "type": "integer"
+            },
+            "BUY_ENABLED": {
+              "id": "/properties/strategies/properties/bbpp/properties/BUY_ENABLED",
+              "type": "boolean"
+            },
+            "MIN_VOLUME_TO_BUY": {
+              "id": "/properties/strategies/properties/bbpp/properties/MIN_VOLUME_TO_BUY",
+              "type": "number"
+            },
+            "MIN_VOLUME_TO_SELL": {
+              "id": "/properties/strategies/properties/bbpp/properties/MIN_VOLUME_TO_SELL",
+              "type": "number"
+            }
+          },
+          "type": "object"
+        },
+        "ppbb": {
+          "id": "/properties/strategies/properties/ppbb",
+          "properties": {
+            "BTC_TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/ppbb/properties/BTC_TRADING_LIMIT",
+              "type": "number"
+            },
+            "PERIOD": {
+              "id": "/properties/strategies/properties/ppbb/properties/PERIOD",
+              "type": "integer"
+            },
+            "GAIN": {
+              "id": "/properties/strategies/properties/ppbb/properties/GAIN",
+              "type": "number"
+            },
+            "HIGH_BB": {
+              "id": "/properties/strategies/properties/ppbb/properties/HIGH_BB",
+              "type": "integer"
+            },
+            "LOW_BB": {
+              "id": "/properties/strategies/properties/ppbb/properties/LOW_BB",
+              "type": "integer"
+            },
+            "STDV": {
+              "id": "/properties/strategies/properties/ppbb/properties/STDV",
+              "type": "integer"
+            },
+            "SMA_PERIOD": {
+              "id": "/properties/strategies/properties/ppbb/properties/SMA_PERIOD",
+              "type": "integer"
+            },
+            "PP_BUY": {
+              "id": "/properties/strategies/properties/ppbb/properties/PP_BUY",
+              "type": "number"
+            },
+            "PANIC_SELL": {
+              "id": "/properties/strategies/properties/ppbb/properties/PANIC_SELL",
+              "type": "boolean"
+            },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/ppbb/properties/DOUBLE_UP",
+              "type": "boolean"
+            },
+            "STOP_LIMIT": {
+              "id": "/properties/strategies/properties/ppbb/properties/STOP_LIMIT",
+              "type": "integer"
+            },
+            "BUY_ENABLED": {
+              "id": "/properties/strategies/properties/ppbb/properties/BUY_ENABLED",
+              "type": "boolean"
+            },
+            "MIN_VOLUME_TO_BUY": {
+              "id": "/properties/strategies/properties/ppbb/properties/MIN_VOLUME_TO_BUY",
+              "type": "number"
+            },
+            "MIN_VOLUME_TO_SELL": {
+              "id": "/properties/strategies/properties/ppbb/properties/MIN_VOLUME_TO_SELL",
+              "type": "number"
+            }
+          },
+          "type": "object"
+        },
+        "gainstepgain": {
+          "id": "/properties/strategies/properties/gainstepgain",
+          "properties": {
+            "BTC_TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/BTC_TRADING_LIMIT",
+              "type": "number"
+            },
+            "HIGH_BB": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/HIGH_BB",
+              "type": "integer"
+            },
+            "LOW_BB": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/LOW_BB",
+              "type": "integer"
+            },
+            "STDV": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/STDV",
+              "type": "integer"
+            },
+            "SMA_PERIOD": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/SMA_PERIOD",
+              "type": "integer"
+            },
+            "PERIOD": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/PERIOD",
+              "type": "integer"
+            },
+            "SELLLVL1": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/SELLLVL1",
+              "type": "number"
+            },
+            "SELLLVL2": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/SELLLVL2",
+              "type": "number"
+            },
+            "SELLLVL3": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/SELLLVL3",
+              "type": "integer"
+            },
+            "SELLLVL": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/SELLLVL",
+              "type": "integer"
+            },
+            "BUY_LEVEL": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/BUY_LEVEL",
+              "type": "number"
+            },
+            "LASTPOINTS": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/LASTPOINTS",
+              "type": "integer"
+            },
+            "AVGPOINTS": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/AVGPOINTS",
+              "type": "integer"
+            },
+            "EMA1": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/EMA1",
+              "type": "integer"
+            },
+            "EMA2": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/EMA2",
+              "type": "integer"
+            },
+            "AVGMINIMUM": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/AVGMINIMUM",
+              "type": "number"
+            },
+            "EMA1": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/EMA1",
+              "type": "integer"
+            },
+            "EMA2": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/EMA2",
+              "type": "integer"
+            },
+            "PANIC_SELL": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/PANIC_SELL",
+              "type": "boolean"
+            },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/DOUBLE_UP",
+              "type": "boolean"
+            },
+            "STOP_LIMIT": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/STOP_LIMIT",
+              "type": "integer"
+            },
+            "BUY_ENABLED": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/BUY_ENABLED",
+              "type": "boolean"
+            },
+            "MIN_VOLUME_TO_BUY": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/MIN_VOLUME_TO_BUY",
+              "type": "number"
+            },
+            "MIN_VOLUME_TO_SELL": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/MIN_VOLUME_TO_SELL",
+              "type": "number"
             }
           },
           "type": "object"
@@ -1175,20 +1049,12 @@
         "stepgaingain": {
           "id": "/properties/strategies/properties/stepgaingain",
           "properties": {
-            "AVGMINIMUM": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/AVGMINIMUM",
-              "type": "number"
-            },
-            "AVGPOINTS": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/AVGPOINTS",
-              "type": "integer"
-            },
             "BTC_TRADING_LIMIT": {
               "id": "/properties/strategies/properties/stepgaingain/properties/BTC_TRADING_LIMIT",
               "type": "number"
             },
-            "BUYLVL": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/BUYLVL",
+            "PERIOD": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/PERIOD",
               "type": "integer"
             },
             "BUYLVL1": {
@@ -1203,20 +1069,8 @@
               "id": "/properties/strategies/properties/stepgaingain/properties/BUYLVL3",
               "type": "integer"
             },
-            "BUY_ENABLED": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/BUY_ENABLED",
-              "type": "boolean"
-            },
-            "DOUBLE_UP": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/DOUBLE_UP",
-              "type": "boolean"
-            },
-            "EMA1": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/EMA1",
-              "type": "integer"
-            },
-            "EMA2": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/EMA2",
+            "BUYLVL": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/BUYLVL",
               "type": "integer"
             },
             "GAIN": {
@@ -1227,6 +1081,38 @@
               "id": "/properties/strategies/properties/stepgaingain/properties/LASTPOINTS",
               "type": "integer"
             },
+            "AVGPOINTS": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/AVGPOINTS",
+              "type": "integer"
+            },
+            "AVGMINIMUM": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/AVGMINIMUM",
+              "type": "number"
+            },
+            "EMA1": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/EMA1",
+              "type": "integer"
+            },
+            "EMA2": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/EMA2",
+              "type": "integer"
+            },
+            "PANIC_SELL": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/PANIC_SELL",
+              "type": "boolean"
+            },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/DOUBLE_UP",
+              "type": "boolean"
+            },
+            "STOP_LIMIT": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/STOP_LIMIT",
+              "type": "integer"
+            },
+            "BUY_ENABLED": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/BUY_ENABLED",
+              "type": "boolean"
+            },
             "MIN_VOLUME_TO_BUY": {
               "id": "/properties/strategies/properties/stepgaingain/properties/MIN_VOLUME_TO_BUY",
               "type": "number"
@@ -1234,18 +1120,110 @@
             "MIN_VOLUME_TO_SELL": {
               "id": "/properties/strategies/properties/stepgaingain/properties/MIN_VOLUME_TO_SELL",
               "type": "number"
-            },
-            "PANIC_SELL": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/PANIC_SELL",
-              "type": "boolean"
+            }
+          },
+          "type": "object"
+        },
+        "gainpp": {
+          "id": "/properties/strategies/properties/gainpp",
+          "properties": {
+            "BTC_TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/gainpp/properties/BTC_TRADING_LIMIT",
+              "type": "number"
             },
             "PERIOD": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/PERIOD",
+              "id": "/properties/strategies/properties/gainpp/properties/PERIOD",
               "type": "integer"
             },
-            "STOP_LIMIT": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/STOP_LIMIT",
+            "BUY_LEVEL": {
+              "id": "/properties/strategies/properties/gainpp/properties/BUY_LEVEL",
+              "type": "number"
+            },
+            "PP_SELL": {
+              "id": "/properties/strategies/properties/gainpp/properties/PP_SELL",
+              "type": "number"
+            },
+            "EMA1": {
+              "id": "/properties/strategies/properties/gainpp/properties/EMA1",
               "type": "integer"
+            },
+            "EMA2": {
+              "id": "/properties/strategies/properties/gainpp/properties/EMA2",
+              "type": "integer"
+            },
+            "PANIC_SELL": {
+              "id": "/properties/strategies/properties/gainpp/properties/PANIC_SELL",
+              "type": "boolean"
+            },
+            "STOP_LIMIT": {
+              "id": "/properties/strategies/properties/gainpp/properties/STOP_LIMIT",
+              "type": "integer"
+            },
+            "BUY_ENABLED": {
+              "id": "/properties/strategies/properties/gainpp/properties/BUY_ENABLED",
+              "type": "boolean"
+            },
+            "MIN_VOLUME_TO_BUY": {
+              "id": "/properties/strategies/properties/gainpp/properties/MIN_VOLUME_TO_BUY",
+              "type": "number"
+            },
+            "MIN_VOLUME_TO_SELL": {
+              "id": "/properties/strategies/properties/gainpp/properties/MIN_VOLUME_TO_SELL",
+              "type": "number"
+            }
+          },
+          "type": "object"
+        },
+        "ppgain": {
+          "id": "/properties/strategies/properties/ppgain",
+          "properties": {
+            "BTC_TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/ppgain/properties/BTC_TRADING_LIMIT",
+              "type": "number"
+            },
+            "PERIOD": {
+              "id": "/properties/strategies/properties/ppgain/properties/PERIOD",
+              "type": "integer"
+            },
+            "GAIN": {
+              "id": "/properties/strategies/properties/ppgain/properties/GAIN",
+              "type": "integer"
+            },
+            "PP_BUY": {
+              "id": "/properties/strategies/properties/ppgain/properties/PP_BUY",
+              "type": "number"
+            },
+            "EMA1": {
+              "id": "/properties/strategies/properties/ppgain/properties/EMA1",
+              "type": "integer"
+            },
+            "EMA2": {
+              "id": "/properties/strategies/properties/ppgain/properties/EMA2",
+              "type": "integer"
+            },
+            "PANIC_SELL": {
+              "id": "/properties/strategies/properties/ppgain/properties/PANIC_SELL",
+              "type": "boolean"
+            },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/ppgain/properties/DOUBLE_UP",
+              "type": "boolean"
+            },
+            "STOP_LIMIT": {
+              "id": "/properties/strategies/properties/ppgain/properties/STOP_LIMIT",
+              "type": "integer"
+            },
+            "BUY_ENABLED": {
+              "id": "/properties/strategies/properties/ppgain/properties/BUY_ENABLED",
+              "type": "boolean"
+            },
+            "MIN_VOLUME_TO_BUY": {
+              "id": "/properties/strategies/properties/ppgain/properties/MIN_VOLUME_TO_BUY",
+              "type": "number"
+            },
+            "MIN_VOLUME_TO_SELL": {
+              "id": "/properties/strategies/properties/ppgain/properties/MIN_VOLUME_TO_SELL",
+              "type": "number"
             }
           },
           "type": "object"
@@ -1253,20 +1231,12 @@
         "stepgainpp": {
           "id": "/properties/strategies/properties/stepgainpp",
           "properties": {
-            "AVGMINIMUM": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/AVGMINIMUM",
-              "type": "number"
-            },
-            "AVGPOINTS": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/AVGPOINTS",
-              "type": "integer"
-            },
             "BTC_TRADING_LIMIT": {
               "id": "/properties/strategies/properties/stepgainpp/properties/BTC_TRADING_LIMIT",
               "type": "number"
             },
-            "BUYLVL": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/BUYLVL",
+            "PERIOD": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/PERIOD",
               "type": "integer"
             },
             "BUYLVL1": {
@@ -1281,13 +1251,25 @@
               "id": "/properties/strategies/properties/stepgainpp/properties/BUYLVL3",
               "type": "integer"
             },
-            "BUY_ENABLED": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/BUY_ENABLED",
-              "type": "boolean"
+            "BUYLVL": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/BUYLVL",
+              "type": "integer"
             },
-            "DOUBLE_UP": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/DOUBLE_UP",
-              "type": "boolean"
+            "PP_SELL": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/PP_SELL",
+              "type": "number"
+            },
+            "LASTPOINTS": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/LASTPOINTS",
+              "type": "integer"
+            },
+            "AVGPOINTS": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/AVGPOINTS",
+              "type": "integer"
+            },
+            "AVGMINIMUM": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/AVGMINIMUM",
+              "type": "number"
             },
             "EMA1": {
               "id": "/properties/strategies/properties/stepgainpp/properties/EMA1",
@@ -1297,9 +1279,21 @@
               "id": "/properties/strategies/properties/stepgainpp/properties/EMA2",
               "type": "integer"
             },
-            "LASTPOINTS": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/LASTPOINTS",
+            "PANIC_SELL": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/PANIC_SELL",
+              "type": "boolean"
+            },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/DOUBLE_UP",
+              "type": "boolean"
+            },
+            "STOP_LIMIT": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/STOP_LIMIT",
               "type": "integer"
+            },
+            "BUY_ENABLED": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/BUY_ENABLED",
+              "type": "boolean"
             },
             "MIN_VOLUME_TO_BUY": {
               "id": "/properties/strategies/properties/stepgainpp/properties/MIN_VOLUME_TO_BUY",
@@ -1308,22 +1302,84 @@
             "MIN_VOLUME_TO_SELL": {
               "id": "/properties/strategies/properties/stepgainpp/properties/MIN_VOLUME_TO_SELL",
               "type": "number"
-            },
-            "PANIC_SELL": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/PANIC_SELL",
-              "type": "boolean"
-            },
-            "PERIOD": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/PERIOD",
-              "type": "integer"
-            },
-            "PP_SELL": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/PP_SELL",
+            }
+          },
+          "type": "object"
+        },
+        "ppstepgain": {
+          "id": "/properties/strategies/properties/ppstepgain",
+          "properties": {
+            "BTC_TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/BTC_TRADING_LIMIT",
               "type": "number"
             },
-            "STOP_LIMIT": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/STOP_LIMIT",
+            "PERIOD": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/PERIOD",
               "type": "integer"
+            },
+            "SELLLVL1": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/SELLLVL1",
+              "type": "integer"
+            },
+            "SELLLVL2": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/SELLLVL2",
+              "type": "integer"
+            },
+            "SELLLVL3": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/SELLLVL3",
+              "type": "integer"
+            },
+            "SELLLVL": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/SELLLVL",
+              "type": "integer"
+            },
+            "PP_BUY": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/PP_BUY",
+              "type": "number"
+            },
+            "LASTPOINTS": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/LASTPOINTS",
+              "type": "integer"
+            },
+            "AVGPOINTS": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/AVGPOINTS",
+              "type": "integer"
+            },
+            "AVGMINIMUM": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/AVGMINIMUM",
+              "type": "number"
+            },
+            "EMA1": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/EMA1",
+              "type": "integer"
+            },
+            "EMA2": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/EMA2",
+              "type": "integer"
+            },
+            "PANIC_SELL": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/PANIC_SELL",
+              "type": "boolean"
+            },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/DOUBLE_UP",
+              "type": "boolean"
+            },
+            "STOP_LIMIT": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/STOP_LIMIT",
+              "type": "integer"
+            },
+            "BUY_ENABLED": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/BUY_ENABLED",
+              "type": "boolean"
+            },
+            "MIN_VOLUME_TO_BUY": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/MIN_VOLUME_TO_BUY",
+              "type": "number"
+            },
+            "MIN_VOLUME_TO_SELL": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/MIN_VOLUME_TO_SELL",
+              "type": "number"
             }
           },
           "type": "object"
