@@ -21,3 +21,12 @@ ws = new WebSocket('wss://127.0.0.1:5000/?gui=native', {
 
 	});
 ```
+
+When an error is caught, Gunbot emits a message like this:
+
+```javascript
+}).catch((e) => {
+	this.ws('getting_order_book', [], e.message);
+```
+
+So every wss message will have its own catch message if try method fails
