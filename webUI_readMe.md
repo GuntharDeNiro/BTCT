@@ -53,8 +53,68 @@ this.ws('message', thismessage2);
 this.ws('message', 'No btc');
 this.ws('message', 'No new opportunities found');
 ```
+To add more events in the GUI you need to:
+- add in the listener.js the new case:
+```javascript
+case 'getting_order_book':
+        case 'getting_public_trade_history':
+        case 'getting_ta':
+        case 'sell_trade':
+        case 'sell_trailing_stop':
+        case 'getting_ema_1':
+        case 'getting_ema_2':
+        case 'buy_trade':
+            for (var k in input.data) {
+                if (input.data.hasOwnProperty(k)) {
+                    $("." + input.exchange + "." + input.pair + "." + input.event + "." + k).text(input.data[k]);
+                }
+            }
+            break;
+```
+- add the bootstrap elements in the listener.html. For example we now have the span class like this:
+```javascript
+<div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Public trade history</h3>
+                    </div>
+                    <div class="panel-body">
 
+                        <ul>
+                            <li>Buy: <span class="exchange-placeholder getting_public_trade_history pair-placeholder price_buy">?</span></li>
+                            <li>Sell: <span class="exchange-placeholder getting_public_trade_history pair-placeholder price_sell">?</span></li>
+                        </ul>
+
+                    </div>
+                </div>
+```
+
+- the span has the following classes: exchange-placeholder getting_public_trade_history pair-placeholder price_buy: do not remove paceholders and add the methods you want to add by addin the method name and the data message. For example:
+  - it the websocket is emitted like this:
+ ```javascript
+ this.send(JSON.stringify({
+				event: 'getting_ta',
+				exchange: exchange,
+				pair: pair,
+				data: {
+					price_high_bb: highBB,
+					price_low_bb: lowBB,
+					price_sma: smas
+				},
+				error: error,
+				time: (new Date).getTime()
+			}));
+```
+  - the classes should be:
+    - exchange-placeholder pair-placeholder getting_ta price_high_bb
+    - exchange-placeholder pair-placeholder getting_ta price_low_bb
+    - exchange-placeholder pair-placeholder getting_ta price_sma
+  
+  - and the span gets filled automatically
+  
+  
+  - END USER INSTRUCTIONS
+    
 - To start the GUI, put the webUI folder in your GUNBOT root and start it with node like node app.is
 - I will provide binaries at every release for people that wont use/install node
- -To connect to your webUI visit this link http://localhost:3000/listener/ 
+- To connect to your webUI visit this link http://localhost:3000/listener/ 
 
