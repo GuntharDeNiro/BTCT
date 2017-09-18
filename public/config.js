@@ -1,6 +1,8 @@
 {
 	"ws": {
-		"port": 5000
+		"port": 5000,   // gunbot websocket port
+		"clientport": 3000,  // gunbot webgui port
+		"hostname": "127.0.0.1"  //ip address usable between client and server
 	},
 	"bot": {
 		"VERBOSE": true,
