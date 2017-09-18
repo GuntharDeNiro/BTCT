@@ -11,13 +11,20 @@ app.get('/', function (req, res) {
     res.send('Gunthy');
 });
 
-app.get('/', function (req, res) {
-    res.send('Gunthy');
-});
-
 app.get('/listener', function (req, res) {
     console.log(req.params);
     res.sendFile(__dirname + '/listener.html');
+});
+
+app.get('/listener/gethost', function( req, res) {
+    var json = fs.readFileSync('config.js', {});
+    var decoder = new StringDecoder('utf8');
+
+    json = decoder.write(json);
+    json = JSON.parse(json);
+
+    res.send('var config = ' + JSON.stringify(json.ws) +';');
+
 });
 
 app.get('/listener/:exchange/:pair', function (req, res) {
@@ -173,7 +180,11 @@ app.post('/updateconfig', function (req, res) {
 
 app.use(express.static('public'));
 
+    var json = fs.readFileSync('config.js', {});
+    var decoder = new StringDecoder('utf8');
+    json = decoder.write(json);
+    json = JSON.parse(json);
 
-app.listen(3000, function () {
-    console.log('Gunthy listening on port 3000!');
+app.listen(json.ws.clientport, json.ws.hostname, 511, function () {
+    console.log('Gunthy listening on '+json.ws.hostname+' port '+json.ws.clientport+'!');
 });
