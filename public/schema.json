@@ -413,6 +413,10 @@
               "id": "/properties/strategies/properties/pp/properties/PANIC_SELL",
               "type": "boolean"
             },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/pp/properties/DOUBLE_UP",
+              "type": "boolean"
+            },
             "STOP_LIMIT": {
               "id": "/properties/strategies/properties/pp/properties/STOP_LIMIT",
               "type": "integer"
@@ -497,6 +501,10 @@
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/stepgain/properties/PANIC_SELL",
+              "type": "boolean"
+            },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/stepgain/properties/DOUBLE_UP",
               "type": "boolean"
             },
             "STOP_LIMIT": {
@@ -1031,14 +1039,6 @@
               "id": "/properties/strategies/properties/gainstepgain/properties/AVGPOINTS",
               "type": "integer"
             },
-            "EMA1": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/EMA1",
-              "type": "integer"
-            },
-            "EMA2": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/EMA2",
-              "type": "integer"
-            },
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/gainstepgain/properties/AVGMINIMUM",
               "type": "number"
@@ -1190,6 +1190,10 @@
             "STOP_LIMIT": {
               "id": "/properties/strategies/properties/gainpp/properties/STOP_LIMIT",
               "type": "integer"
+            },
+            "DOUBLE_UP": {
+              "id": "/properties/strategies/properties/gainpp/properties/DOUBLE_UP",
+              "type": "boolean"
             },
             "BUY_ENABLED": {
               "id": "/properties/strategies/properties/gainpp/properties/BUY_ENABLED",
