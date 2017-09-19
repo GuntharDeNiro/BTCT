@@ -129,7 +129,7 @@ setInterval(()=>{
     if (connected)
         return false;
 
-    var exampleSocket = new WebSocket("wss://127.0.0.1:5000/?gui=native");
+    var exampleSocket = new WebSocket("wss://"+config.hostname+":"+config.port+"/?gui=native");
     console.log("connected");
     connected = true;
 
