@@ -40,8 +40,7 @@
 			"BTC-LTC": {
 				"strategy": "bb",
 				"override": {
-					"a": "value",
-					"b": "value"
+					"BUY_ENABLED": "false"
 				}
 			}
 		},
@@ -75,10 +74,7 @@
 				"strategy": "bb"
 			},
 			"eBTC_ETC": {
-				"strategy": "bb",
-				"override": {
-					"variable": "value"
-				}
+				"strategy": "bb"
 			}
 		}
 	},
