@@ -20,10 +20,6 @@
           "id": "/properties/bot/properties/debug",
           "type": "boolean"
         },
-        "VERBOSE": {
-          "id": "/properties/bot/properties/VERBOSE",
-          "type": "boolean"
-        },
         "BOT_DELAY": {
           "id": "/properties/bot/properties/BOT_DELAY",
           "type": "number"
@@ -51,6 +47,14 @@
         "TV_TRADING_LIMIT": {
           "id": "/properties/bot/properties/TV_TRADING_LIMIT",
           "type": "number"
+        },
+        "TV_PROTECTION": {
+          "id": "/properties/bot/properties/TV_PROTECTION",
+          "type": "boolean"
+        },
+        "VERBOSE": {
+          "id": "/properties/bot/properties/VERBOSE",
+          "type": "boolean"
         },
         "WATCH_MODE": {
           "id": "/properties/bot/properties/WATCH_MODE",
@@ -253,13 +257,17 @@
         "bb": {
           "id": "/properties/strategies/properties/bb",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/bb/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/bb/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
               "id": "/properties/strategies/properties/bb/properties/PERIOD",
               "type": "integer"
+            },
+            "BUY_LEVEL": {
+              "id": "/properties/strategies/properties/bb/properties/BUY_LEVEL",
+              "type": "number"
             },
             "EMA1": {
               "id": "/properties/strategies/properties/bb/properties/EMA1",
@@ -319,8 +327,8 @@
         "gain": {
           "id": "/properties/strategies/properties/gain",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/gain/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/gain/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
@@ -389,8 +397,8 @@
         "pp": {
           "id": "/properties/strategies/properties/pp",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/pp/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/pp/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PP_BUY": {
@@ -427,8 +435,8 @@
         "stepgain": {
           "id": "/properties/strategies/properties/stepgain",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/stepgain/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/stepgain/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
@@ -513,13 +521,17 @@
         "bbgain": {
           "id": "/properties/strategies/properties/bbgain",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/bbgain/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/bbgain/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
               "id": "/properties/strategies/properties/bbgain/properties/PERIOD",
               "type": "integer"
+            },
+            "BUY_LEVEL": {
+              "id": "/properties/strategies/properties/bbgain/properties/BUY_LEVEL",
+              "type": "number"
             },
             "GAIN": {
               "id": "/properties/strategies/properties/bbgain/properties/GAIN",
@@ -577,13 +589,17 @@
         "gainbb": {
           "id": "/properties/strategies/properties/gainbb",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/gainbb/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/gainbb/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
               "id": "/properties/strategies/properties/gainbb/properties/PERIOD",
               "type": "integer"
+            },
+            "BUY_LEVEL": {
+              "id": "/properties/strategies/properties/gainbb/properties/BUY_LEVEL",
+              "type": "number"
             },
             "BUY_LEVEL": {
               "id": "/properties/strategies/properties/gainbb/properties/BUY_LEVEL",
@@ -639,13 +655,17 @@
         "bbstepgain": {
           "id": "/properties/strategies/properties/bbstepgain",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
               "id": "/properties/strategies/properties/bbstepgain/properties/PERIOD",
               "type": "integer"
+            },
+            "BUY_LEVEL": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/BUY_LEVEL",
+              "type": "number"
             },
             "HIGH_BB": {
               "id": "/properties/strategies/properties/bbstepgain/properties/HIGH_BB",
@@ -729,13 +749,17 @@
         "stepgainbb": {
           "id": "/properties/strategies/properties/stepgainbb",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
               "id": "/properties/strategies/properties/stepgainbb/properties/PERIOD",
               "type": "integer"
+            },
+            "BUY_LEVEL": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/BUY_LEVEL",
+              "type": "number"
             },
             "HIGH_BB": {
               "id": "/properties/strategies/properties/stepgainbb/properties/HIGH_BB",
@@ -823,13 +847,17 @@
         "bbpp": {
           "id": "/properties/strategies/properties/bbpp",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/bbpp/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/bbpp/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
               "id": "/properties/strategies/properties/bbpp/properties/PERIOD",
               "type": "integer"
+            },
+            "BUY_LEVEL": {
+              "id": "/properties/strategies/properties/bbpp/properties/BUY_LEVEL",
+              "type": "number"
             },
             "GAIN": {
               "id": "/properties/strategies/properties/bbpp/properties/GAIN",
@@ -885,13 +913,17 @@
         "ppbb": {
           "id": "/properties/strategies/properties/ppbb",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/ppbb/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/ppbb/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
               "id": "/properties/strategies/properties/ppbb/properties/PERIOD",
               "type": "integer"
+            },
+            "BUY_LEVEL": {
+              "id": "/properties/strategies/properties/ppbb/properties/BUY_LEVEL",
+              "type": "number"
             },
             "GAIN": {
               "id": "/properties/strategies/properties/ppbb/properties/GAIN",
@@ -947,8 +979,8 @@
         "gainstepgain": {
           "id": "/properties/strategies/properties/gainstepgain",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/TRADING_LIMIT",
               "type": "number"
             },
             "HIGH_BB": {
@@ -1049,8 +1081,8 @@
         "stepgaingain": {
           "id": "/properties/strategies/properties/stepgaingain",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
@@ -1127,8 +1159,8 @@
         "gainpp": {
           "id": "/properties/strategies/properties/gainpp",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/gainpp/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/gainpp/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
@@ -1177,8 +1209,8 @@
         "ppgain": {
           "id": "/properties/strategies/properties/ppgain",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/ppgain/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/ppgain/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
@@ -1231,8 +1263,8 @@
         "stepgainpp": {
           "id": "/properties/strategies/properties/stepgainpp",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
@@ -1309,8 +1341,8 @@
         "ppstepgain": {
           "id": "/properties/strategies/properties/ppstepgain",
           "properties": {
-            "BTC_TRADING_LIMIT": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/BTC_TRADING_LIMIT",
+            "TRADING_LIMIT": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/TRADING_LIMIT",
               "type": "number"
             },
             "PERIOD": {
