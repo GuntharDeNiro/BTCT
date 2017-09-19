@@ -8,7 +8,13 @@
       "type": "object",
       "properties": {
         "port": {
-          "type": "number"
+          "type": "integer"
+        },
+        "clientport": {
+          "type": "integer"
+        },
+        "hostname": {
+          "type": "string"
         }
       }
     },

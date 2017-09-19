@@ -40,8 +40,8 @@
 			"BTC-LTC": {
 				"strategy": "bb",
 				"override": {
-					"a": "value",
-					"b": "value"
+					"a": null,
+					"b": null
 				}
 			}
 		},
@@ -77,7 +77,7 @@
 			"eBTC_ETC": {
 				"strategy": "bb",
 				"override": {
-					"variable": "value"
+					"variable": null
 				}
 			}
 		}
@@ -136,6 +136,7 @@
 			"PP_BUY": 1e-8,
 			"PP_SELL": 0.12345678,
 			"PANIC_SELL": false,
+			"DOUBLE_UP": false,
 			"STOP_LIMIT": 60,
 			"BUY_ENABLED": true,
 			"MIN_VOLUME_TO_BUY": 0.001,
@@ -158,6 +159,7 @@
 			"EMA1": 2000,
 			"EMA2": 1000,
 			"PANIC_SELL": false,
+			"DOUBLE_UP": false,
 			"STOP_LIMIT": 60,
 			"BUY_ENABLED": true,
 			"MIN_VOLUME_TO_BUY": 0.001,
@@ -294,9 +296,9 @@
 			"BUY_LEVEL": 2,
 			"LASTPOINTS": 5,
 			"AVGPOINTS": 250,
+			"AVGMINIMUM": 1e-8,
 			"EMA1": 200,
 			"EMA2": 50,
-			"AVGMINIMUM": 1e-8,
 			"PANIC_SELL": false,
 			"DOUBLE_UP": true,
 			"STOP_LIMIT": 60,
@@ -333,6 +335,7 @@
 			"EMA2": 1000,
 			"PANIC_SELL": false,
 			"STOP_LIMIT": 60,
+			"DOUBLE_UP": false,
 			"BUY_ENABLED": true,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001
@@ -394,7 +397,7 @@
 	},
 	"optionals": {
 		"toOverride": {
-			"BOUGHT_PRICE": "0.104744"
+			"BOUGHT_PRICE": 0.104744
 		}
 	}
 }
