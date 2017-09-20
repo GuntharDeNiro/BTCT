@@ -23,6 +23,9 @@
             padding-top: 70px;
         }
 
+        #logo-top {
+            margin: -20px 0 0 -15px;
+        }
 
         .container {
             width: 100%;
@@ -59,10 +62,10 @@
             margin-left: 10px;
             margin-bottom: 10px;
         }
+
         #select-pair-button {
             margin-left: 10px;
         }
-
     </style>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -85,7 +88,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Gunthy</a>
+            <a class="navbar-brand" href="#"><img id="logo-top" src="/images/gb-logo.png" width="55%" alt="Gunthy"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -157,9 +160,9 @@
 
 
             }, 'json');
-            
+
         }
-        
+
         function pairSelected() {
             window.location.href = "/listener/" + $("#exchange-select").val() + "/" + $("#pair-select").val();
         }
@@ -176,7 +179,7 @@
         }
 
 
-        
+
     </script>
 
     <div id="container-all">
