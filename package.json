@@ -1,7 +1,7 @@
 {
   "name": "gunthy",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Gunbot-GUI",
   "main": "app.js",
   "directories": {
     "doc": "docs"
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "@Gunthar - @eKyNoX",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
