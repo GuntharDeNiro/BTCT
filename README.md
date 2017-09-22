@@ -2,7 +2,9 @@
 
 # END USER INSTRUCTIONS
     
-- To start the GUI, put the webUI folder in your GUNBOT root and start it with node like node app.is
+- To start the GUI, put the webUI folder in your GUNBOT root
+- Do a `npm install` on this folder
+- Start it with node like `node app.js`
 - I will provide binaries at every release for people that wont use/install node
 - To connect to your webUI visit this link http://localhost:3000/listener/ 
 
