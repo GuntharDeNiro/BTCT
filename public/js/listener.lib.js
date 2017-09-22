@@ -90,10 +90,19 @@ function processMessage(event) {
                     records: input.data
                 }
             });
+
             break;
 
         case 'getting_open_orders':
             $('table.' + input.event + '.' + input.exchange + "." + input.pair).dynatable({
+                features: {
+                    paginate: false,
+                    sort: false,
+                    pushState: false,
+                    search: false,
+                    recordCount: false,
+                    perPageSelect: false
+                },
                 dataset: {
                     records: input.data
                 }
