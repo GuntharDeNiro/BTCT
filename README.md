@@ -1,5 +1,9 @@
+Current Gunbot version : v5.0.4 (v5.0.5 with WebGUI soon)
+
+# WebGUI informations for devs :
+
 Work in progress
-- https://127.0.0.1:5000/?gui=native // to allow SSL exception in chrome
+- https://127.0.0.1:5000/?gui=native // to allow SSL exception in chrome - port / host / ws port on config.js
 - Events are emit from Gunbot like this > this.ws('getting_order_book', [this.Ask, this.Bid]);
 - This will return this.Ask and this.Bid in the "message"
 - We listen to the "message" on port we set in ws section in Gunbot config.js
