@@ -170,13 +170,12 @@
 
         var urlParts = window.location.href.split("/").filter(function(n){ return n !== "" });
 
-        if(urlParts.length > 3) {
+        if (urlParts.length > 3) {
             var exchange = urlParts[urlParts.length - 2];
             var pair = urlParts[urlParts.length - 1];
 
             $("#current-exchange").text(exchange);
             $("#current-pair").text(pair);
-
         }
 
 
@@ -322,14 +321,13 @@
 
 <div class="container" id="container-trading-history" style="display: none;">
 
-    <h3>Trading history</h3>
+    <h3>Trading History</h3>
 
-    <table class="table table-bordered getting_balances exchange-placeholder pair-placeholder">
+    <table class="table table-bordered gettting_trade_history exchange-placeholder pair-placeholder">
         <thead>
-        <th>Header</th>
-        <th>Available</th>
-        <th>On orders</th>
-        <th>Btc value</th>
+            <th>Type</th>
+            <th>Rate</th>
+            <th>Amount</th>
         </thead>
         <tbody>
         </tbody>
