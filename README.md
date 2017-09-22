@@ -1,4 +1,10 @@
-Current Gunbot version : v5.0.4 (v5.0.5 with WebGUI soon)
+`Current Gunbot version : v5.0.4 (v5.0.5 with WebGUI soon)`
+
+# END USER INSTRUCTIONS
+    
+- To start the GUI, put the webUI folder in your GUNBOT root and start it with node like node app.is
+- I will provide binaries at every release for people that wont use/install node
+- To connect to your webUI visit this link http://localhost:3000/listener/ 
 
 # WebGUI informations for devs :
 
@@ -58,7 +64,7 @@ this.ws('message', 'No btc');
 this.ws('message', 'No new opportunities found');
 ```
 To add more events in the GUI you need to:
-- add in the listener.js the new case:
+- add in the listener.lib.js the new case:
 ```javascript
 case 'getting_order_book':
         case 'getting_public_trade_history':
@@ -114,11 +120,3 @@ case 'getting_order_book':
     - exchange-placeholder pair-placeholder getting_ta price_sma
   
   - and the span gets filled automatically
-  
-  
-  - END USER INSTRUCTIONS
-    
-- To start the GUI, put the webUI folder in your GUNBOT root and start it with node like node app.is
-- I will provide binaries at every release for people that wont use/install node
-- To connect to your webUI visit this link http://localhost:3000/listener/ 
-
