@@ -5,6 +5,7 @@ const { StringDecoder } = require('string_decoder');
 var spawn = require('child_process').spawn;
 var app = express();
 var gbStart;
+var gbStatus = false;
 
 app.use(bodyParser.json());
 
@@ -15,6 +16,7 @@ app.get('/', function (req, res) {
 app.get('/gbstart', function (req, res) {
     var isWin = /^win/.test(process.platform);
     gbStart = spawn(isWin ? 'cmd' : 'sh', [isWin ? '/c' : '-c', isWin ? 'gunthy.exe' : './gunthy-linx64']);
+    gbStatus = true;
 
     gbStart.stdout.on('data', (data) => {
             console.log(`stdout: ${data}`);
@@ -30,10 +32,19 @@ app.get('/gbstart', function (req, res) {
 });
 
 app.get('/gbstop', function (req, res) {
+    gbStatus = false;
     var kill  = require('tree-kill');
     kill(gbStart.pid);
+});
 
-    return 'success';
+app.put('/gbstatus', function (req, res) {
+    if (!gbStatus) {
+        console.log('false');
+        res.send(false);
+    } else {
+        console.log('true');
+        res.send(true);
+    }
 });
 
 app.get('/listener', function (req, res) {

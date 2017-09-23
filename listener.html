@@ -135,12 +135,34 @@
         $("#exchange-select").select2({allowClear: true, placeholder: "Select exchange" });
         $("#pair-select").select2({allowClear: true, placeholder: "Select pair" });
 
+        var gbStatus;
+
+        $.ajax({
+            type: "PUT",
+            contentType: "application/json",
+            url: '/gbstatus',
+            success: function(data) {
+                gbStatus = data;
+            }
+        });
+
+        if (gbStatus) {
+            $("#stopGb-button").show();
+            $("#runGb-button").hide();
+        } else {
+            $("#stopGb-button").hide();
+            $("#runGb-button").show();
+        }
+
         $(".runGbButton").click(function () {
             $.ajax({
                 type: "GET",
                 contentType: "application/json",
                 url: '/gbstart'
             });
+
+            $("#stopGb-button").show();
+            $("#runGb-button").hide();
         });
 
         $(".stopGbButton").click(function () {
