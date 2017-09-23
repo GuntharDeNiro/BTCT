@@ -51,6 +51,10 @@
                 <li><a href="/listener">Viewer</a></li>
                 <li class="active"><a href="/configurator.html">Configurator</a></li>
             </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><button id="runGb-button" class="btn btn-primary runGbButton" style="margin-top: 8px; margin-right: 10px;">Start</button></li>
+                <li><button id="stopGb-button" class="btn btn-danger stopGbButton" style="margin-top: 8px; margin-right: 10px;">Stop</button></li>
+            </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
@@ -90,32 +94,52 @@
 
     $.get('/schema.json', {}, function (schema) {
         var BrutusinForms = brutusin["json-forms"];
-//        BrutusinForms.addDecorator(function (htmlElement, schema) {
-//
-//            if(htmlElement.nodeName === "INPUT" && htmlElement.type === "number" && schema.$id && (schema.$id.indexOf("toOverride") > -1 || schema.$id.indexOf("override") > -1) ) {
-//
-//                if(htmlElement.value === "") {
-//                    htmlElement.setAttribute('value','0');
-//                }
-//
-//            }
-////
-////            if(htmlElement.nodeName === "INPUT" && htmlElement.type === "number")
-////                console.log(htmlElement, schema);
-//
-//
-//
-//        });
         var bf = BrutusinForms.create(schema);
-
         var container = document.getElementById('form_container');
+        var gbStatus = false;
+
+        $.ajax({
+            type: "PUT",
+            contentType: "application/json",
+            url: '/gbstatus',
+            success: function(data) {
+                gbStatus = data;
+            },
+            async: false
+        });
+
+        if (gbStatus === true) {
+            $("#stopGb-button").show();
+            $("#runGb-button").hide();
+        } else {
+            $("#stopGb-button").hide();
+            $("#runGb-button").show();
+        }
+
+        $(".runGbButton").click(function () {
+            $.ajax({
+                type: "GET",
+                contentType: "application/json",
+                url: '/gbstart'
+            });
+
+            $("#stopGb-button").show();
+            $("#runGb-button").hide();
+        });
+
+        $(".stopGbButton").click(function () {
+            $.ajax({
+                type: "GET",
+                contentType: "application/json",
+                url: '/gbstop'
+            });
+
+            location.reload();
+        });
 
         $.get('/config.js', {}, function (config) {
             console.log(config);
             bf.render(container, config);
-
-
-
         }, 'json');
 
         $(".readFormButton").click(function () {

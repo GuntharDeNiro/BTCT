@@ -54,7 +54,7 @@ app.get('/gbstop', function (req, res) {
     kill(gbStart.pid);
 });
 
-app.get('/gbstatus', function (req, res) {
+app.put('/gbstatus', function (req, res) {
     if (!gbStatus) {
         res.send(false);
     } else {
