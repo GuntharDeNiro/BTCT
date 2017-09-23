@@ -135,7 +135,7 @@
         $("#exchange-select").select2({allowClear: true, placeholder: "Select exchange" });
         $("#pair-select").select2({allowClear: true, placeholder: "Select pair" });
 
-        var gbStatus;
+        var gbStatus = false;
 
         $.ajax({
             type: "PUT",
@@ -143,10 +143,11 @@
             url: '/gbstatus',
             success: function(data) {
                 gbStatus = data;
-            }
+            },
+            async: false
         });
 
-        if (gbStatus) {
+        if (gbStatus === true) {
             $("#stopGb-button").show();
             $("#runGb-button").hide();
         } else {
