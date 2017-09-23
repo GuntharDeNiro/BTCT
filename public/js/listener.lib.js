@@ -150,7 +150,7 @@ setInterval(()=>{
             return false;
 
         var socket = new WebSocket("wss://"+config.hostname+":"+config.port+"/?gui=native");
-        console.log("connected");
+        console.log("websocket connection with gunbot granted");
         connected = true;
 
         socket.onmessage = processMessage;

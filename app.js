@@ -26,6 +26,9 @@ app.get('/', function (req, res) {
 });
 
 app.get('/gbstart', function (req, res) {
+    if (gbStatus)
+        return;
+
     var isWin = /^win/.test(process.platform);
     gbStart = spawn(isWin ? 'cmd' : 'sh', [isWin ? '/c' : '-c', isWin ? 'gunthy.exe' : os]);
     gbStatus = true;
