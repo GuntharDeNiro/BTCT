@@ -4,8 +4,20 @@ var fs = require('fs');
 const { StringDecoder } = require('string_decoder');
 var spawn = require('child_process').spawn;
 var app = express();
+var isPi = require('detect-rpi');
+var os = osDetection();
 var gbStart;
 var gbStatus = false;
+
+function osDetection() {
+    if (process.platform == 'linux' || process.platform == 'sunos' || process.platform == 'freebsd') {
+        return './gunthy-linx64';
+    } else if (process.platform == 'darwin') {
+        return './gunthy-macos';
+    } else if (isPi()) {
+        return 'gunthy-arm';
+    }
+}
 
 app.use(bodyParser.json());
 
@@ -15,8 +27,10 @@ app.get('/', function (req, res) {
 
 app.get('/gbstart', function (req, res) {
     var isWin = /^win/.test(process.platform);
-    gbStart = spawn(isWin ? 'cmd' : 'sh', [isWin ? '/c' : '-c', isWin ? 'gunthy.exe' : './gunthy-linx64']);
+    gbStart = spawn(isWin ? 'cmd' : 'sh', [isWin ? '/c' : '-c', isWin ? 'gunthy.exe' : os]);
     gbStatus = true;
+
+    console.log('gunbot have been started');
 
     gbStart.stdout.on('data', (data) => {
             console.log(`stdout: ${data}`);
@@ -27,7 +41,7 @@ app.get('/gbstart', function (req, res) {
     });
 
     gbStart.on('close', (code) => {
-            console.log(`child process exited with code ${code}`);
+            console.log(`gunbot have been stopped`);
     });
 });
 
@@ -39,10 +53,8 @@ app.get('/gbstop', function (req, res) {
 
 app.put('/gbstatus', function (req, res) {
     if (!gbStatus) {
-        console.log('false');
         res.send(false);
     } else {
-        console.log('true');
         res.send(true);
     }
 });
