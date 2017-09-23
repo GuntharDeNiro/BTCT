@@ -76,7 +76,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 
-
 </head>
 <body>
 
@@ -95,6 +94,10 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Viewer</a></li>
                 <li><a href="/configurator.html">Configurator</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><button id="runGb-button" class="btn btn-primary runGbButton" style="margin-top: 8px; margin-right: 10px;">Start</button></li>
+                <li><button id="stopGb-button" class="btn btn-danger stopGbButton" style="margin-top: 8px; margin-right: 10px;">Stop</button></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -131,6 +134,24 @@
     <script type="application/javascript">
         $("#exchange-select").select2({allowClear: true, placeholder: "Select exchange" });
         $("#pair-select").select2({allowClear: true, placeholder: "Select pair" });
+
+        $(".runGbButton").click(function () {
+            $.ajax({
+                type: "GET",
+                contentType: "application/json",
+                url: '/gbstart'
+            });
+        });
+
+        $(".stopGbButton").click(function () {
+            $.ajax({
+                type: "GET",
+                contentType: "application/json",
+                url: '/gbstop'
+            });
+
+            location.reload();
+        });
 
         function changeView() {
             if($("#container-all").is(":visible")) {
@@ -177,8 +198,6 @@
             $("#current-exchange").text(exchange);
             $("#current-pair").text(pair);
         }
-
-
 
     </script>
 

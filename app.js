@@ -2,13 +2,38 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var fs = require('fs');
 const { StringDecoder } = require('string_decoder');
-
+var spawn = require('child_process').spawn;
 var app = express();
+var gbStart;
 
 app.use(bodyParser.json());
 
 app.get('/', function (req, res) {
     res.send('Gunthy');
+});
+
+app.get('/gbstart', function (req, res) {
+    var isWin = /^win/.test(process.platform);
+    gbStart = spawn(isWin ? 'cmd' : 'sh', [isWin ? '/c' : '-c', isWin ? 'gunthy.exe' : './gunthy-linx64']);
+
+    gbStart.stdout.on('data', (data) => {
+            console.log(`stdout: ${data}`);
+    });
+
+    gbStart.stderr.on('data', (data) => {
+            console.log(`stderr: ${data}`);
+    });
+
+    gbStart.on('close', (code) => {
+            console.log(`child process exited with code ${code}`);
+    });
+});
+
+app.get('/gbstop', function (req, res) {
+    var kill  = require('tree-kill');
+    kill(gbStart.pid);
+
+    return 'success';
 });
 
 app.get('/listener', function (req, res) {
@@ -24,7 +49,6 @@ app.get('/listener/gethost', function( req, res) {
     json = JSON.parse(json);
 
     res.send('var config = ' + JSON.stringify(json.ws) +';');
-
 });
 
 app.get('/listener/:exchange/:pair', function (req, res) {
@@ -113,7 +137,7 @@ app.post('/updateconfig', function (req, res) {
     fs.writeFileSync('public/config.js', JSON.stringify(json, null, "\t"), 'utf-8', function(err) {
     	if (err) throw err
     	console.log('Done!')
-    })
+    });
 
     for (var k in json.optionals.toOverride) {
         if (json.optionals.toOverride.hasOwnProperty(k)) {

@@ -17,6 +17,7 @@
     "bufferutil": "^3.0.2",
     "express": "^4.15.4",
     "lodash": "^4.17.4",
+    "tree-kill": "^1.2.0",
     "utf-8-validate": "^3.0.3",
     "ws": "^3.1.0"
   }
