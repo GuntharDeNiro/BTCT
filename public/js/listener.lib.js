@@ -1,4 +1,4 @@
-let connected = false;
+var connected = false;
 
 /* Manage cases currencies having 3 letters or more */
 function getBaseCurrency(pair) {
@@ -132,27 +132,39 @@ function processMessage(event) {
     }
 }
 
+var gbStatus;
+
 /* Loop to receive incoming data from gunbot */
 setInterval(()=>{
-    if (connected)
-        return false;
+    $.ajax({
+        type: "PUT",
+        contentType: "application/json",
+        url: '/gbstatus',
+        success: function(data) {
+            gbStatus = data;
+        }
+    });
 
-    var socket = new WebSocket("wss://"+config.hostname+":"+config.port+"/?gui=native");
-    console.log("connected");
-    connected = true;
+    if (gbStatus) {
+        if (connected)
+            return false;
 
-    socket.onmessage = processMessage;
-    socket.onerror = function (event) {
-        connected = false;
-        console.log(event);
-    };
+        var socket = new WebSocket("wss://"+config.hostname+":"+config.port+"/?gui=native");
+        console.log("connected");
+        connected = true;
 
-    // Dummy data
+        socket.onmessage = processMessage;
+        socket.onerror = function (event) {
+            connected = false;
+            console.log(event);
+        };
 
-    // $('table.getting_open_orders').dynatable({
-    //     dataset: {
-    //         records: [{"orderNumber":"120466","type":"sell","rate":"0.025","amount":"100","total":"2.5"},{"orderNumber":"120467","type":"sell","rate":"0.04","amount":"100","total":"4"} ]
-    //     }
-    // });
+        // Dummy data
 
+        // $('table.getting_open_orders').dynatable({
+        //     dataset: {
+        //         records: [{"orderNumber":"120466","type":"sell","rate":"0.025","amount":"100","total":"2.5"},{"orderNumber":"120467","type":"sell","rate":"0.04","amount":"100","total":"4"} ]
+        //     }
+        // });
+    }
 }, 1000);
