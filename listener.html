@@ -143,17 +143,16 @@
             url: '/gbstatus',
             success: function(data) {
                 gbStatus = data;
-            },
-            async: false
-        });
 
-        if (gbStatus === true) {
-            $("#stopGb-button").show();
-            $("#runGb-button").hide();
-        } else {
-            $("#stopGb-button").hide();
-            $("#runGb-button").show();
-        }
+                if (gbStatus === true) {
+                    $("#stopGb-button").show();
+                    $("#runGb-button").hide();
+                } else {
+                    $("#stopGb-button").hide();
+                    $("#runGb-button").show();
+                }
+            }
+        });
 
         $(".runGbButton").click(function () {
             $.ajax({
@@ -238,27 +237,12 @@
                         <ul>
                             <li>Ask: <span class="exchange-placeholder getting_order_book pair-placeholder price_ask">?</span></li>
                             <li>Bid: <span class="exchange-placeholder getting_order_book pair-placeholder price_bid">?</span></li>
-                            <li>Price to Buy: <span class="exchange-placeholder getting_order_book pair-placeholder price_to_buy">?</span></li>
-                            <li>Price to Sell: <span class="exchange-placeholder getting_order_book pair-placeholder price_to_sell">?</span></li>
-                            <li>Security Margin: <span class="exchange-placeholder getting_order_book pair-placeholder security_margin">?</span></li>
+                            <li>Price to Buy: <span class="exchange-placeholder getting_public_trade_history pair-placeholder price_buy">?</span></li>
+                            <li>Price to Sell: <span class="exchange-placeholder getting_public_trade_history pair-placeholder price_sell">?</span></li>
                         </ul>
 
                     </div>
                 </div>
-
-                <!--<div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Public trade history</h3>
-                    </div>
-                    <div class="panel-body">
-
-                        <ul>
-                            <li>Buy: <span class="exchange-placeholder getting_public_trade_history pair-placeholder price_buy">?</span></li>
-                            <li>Sell: <span class="exchange-placeholder getting_public_trade_history pair-placeholder price_sell">?</span></li>
-                        </ul>
-
-                    </div>
-                </div>-->
 
                 <div class="panel panel-default">
                     <div class="panel-heading">
