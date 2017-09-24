@@ -50,8 +50,16 @@
           "id": "/properties/bot/properties/TV_GAIN",
           "type": "number"
         },
-        "TV_TRADING_LIMIT": {
-          "id": "/properties/bot/properties/TV_TRADING_LIMIT",
+        "TV_TRADING_LIMIT_BUY": {
+          "id": "/properties/bot/properties/TV_TRADING_LIMIT_BUY",
+          "type": "number"
+        },
+        "TV_PYRAMID": {
+          "id": "/properties/bot/properties/TV_PYRAMID",
+          "type": "boolean"
+        },
+        "TV_TRADING_LIMIT_SELL": {
+          "id": "/properties/bot/properties/TV_TRADING_LIMIT_SELL",
           "type": "number"
         },
         "TV_PROTECTION": {

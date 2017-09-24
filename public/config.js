@@ -12,7 +12,9 @@
 		"timeout_buy": 60000,
 		"timeout_sell": 60000,
 		"TV_GAIN": 0.6,
-		"TV_TRADING_LIMIT": 0.001,
+		"TV_TRADING_LIMIT_BUY": 0.001,
+		"TV_PYRAMID": true,
+		"TV_TRADING_LIMIT_SELL": 0.001,
 		"TV_PROTECTION": true,
 		"VERBOSE": true,
 		"WATCH_MODE": false

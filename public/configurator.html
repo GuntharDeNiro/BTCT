@@ -104,17 +104,16 @@
             url: '/gbstatus',
             success: function(data) {
                 gbStatus = data;
-            },
-            async: false
-        });
 
-        if (gbStatus === true) {
-            $("#stopGb-button").show();
-            $("#runGb-button").hide();
-        } else {
-            $("#stopGb-button").hide();
-            $("#runGb-button").show();
-        }
+                if (gbStatus === true) {
+                    $("#stopGb-button").show();
+                    $("#runGb-button").hide();
+                } else {
+                    $("#stopGb-button").hide();
+                    $("#runGb-button").show();
+                }
+            }
+        });
 
         $(".runGbButton").click(function () {
             $.ajax({
