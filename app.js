@@ -62,6 +62,17 @@ app.put('/gbstatus', function (req, res) {
     }
 });
 
+app.get('/getConfig', function (req, res) {
+    var json = fs.readFileSync('config.js');
+    var decoder = new StringDecoder('utf8');
+
+    json = decoder.write(json);
+    json = JSON.parse(json);
+
+    res.send(json);
+});
+
+
 app.get('/listener', function (req, res) {
     console.log(req.params);
     res.sendFile(__dirname + '/listener.html');
@@ -160,11 +171,6 @@ app.post('/updateconfig', function (req, res) {
 
     var json = req.body;
 
-    fs.writeFileSync('public/config.js', JSON.stringify(json, null, "\t"), 'utf-8', function(err) {
-    	if (err) throw err
-    	console.log('Done!')
-    });
-
     for (var k in json.optionals.toOverride) {
         if (json.optionals.toOverride.hasOwnProperty(k)) {
 
@@ -220,9 +226,9 @@ app.post('/updateconfig', function (req, res) {
     }
 
     fs.writeFileSync('config.js', JSON.stringify(json, null, "\t"), 'utf-8', function(err) {
-    	if (err) throw err
+    	if (err) throw err;
     	console.log('Done!')
-    })
+    });
 
     res.send("{}");
 });

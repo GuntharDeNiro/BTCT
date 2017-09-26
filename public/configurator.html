@@ -9,6 +9,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-switch.min.css" rel="stylesheet">
+    <link href="css/bootstrap-select.min.css" rel="stylesheet">
     <link rel="stylesheet" href='css/brutusin-json-forms.min.css'/>
 
     <!--[if lt IE 9]>
@@ -86,12 +87,12 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/markdown.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
 <script src="js/brutusin-json-forms.min.js"></script>
 <script src="js/brutusin-json-forms-bootstrap.min.js"></script>
 
 <script type="application/javascript">
-    console.log("test");
-
     $.get('/schema.json', {}, function (schema) {
         var BrutusinForms = brutusin["json-forms"];
         var bf = BrutusinForms.create(schema);
@@ -136,8 +137,7 @@
             location.reload();
         });
 
-        $.get('/config.js', {}, function (config) {
-            console.log(config);
+        $.get('/getConfig', {}, function (config) {
             bf.render(container, config);
         }, 'json');
 
