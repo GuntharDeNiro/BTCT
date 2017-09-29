@@ -11,6 +11,7 @@
     <link href="css/bootstrap-switch.min.css" rel="stylesheet">
     <link href="css/bootstrap-select.min.css" rel="stylesheet">
     <link rel="stylesheet" href='css/brutusin-json-forms.min.css'/>
+    <link rel="stylesheet" type="text/css" href="/css/sticky-footer.css">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -20,6 +21,10 @@
     <style type="text/css">
         body {
             padding-top: 70px;
+        }
+
+        #logo-top {
+            margin: -20px 0 0 -15px;
         }
 
         .container {
@@ -45,7 +50,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Gunthy</a>
+            <a class="navbar-brand" href="#"><img id="logo-top" src="/images/gb-logo.png" width="55%" alt="Gunthy"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -80,10 +85,21 @@
     <div id="form_container"></div>
     <button class="btn btn-primary readFormButton" style="float: right">Save</button>
 
-
-
 </div>
 
+<footer class="footer">
+
+    <div class="container">
+        <div class="footerRow">
+            <div class="span12">
+                <span class="text-muted"><a href="https://gunthy.org/" target="_blank">Gunbot</a>© 2017-2018</span>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<br><br>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
