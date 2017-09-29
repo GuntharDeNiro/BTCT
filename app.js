@@ -151,7 +151,7 @@ app.get('/config-num', function (req, res) {
 app.get('/get_pairs/:exchange', function (req, res) {
     console.log(req.params);
 
-    var json = fs.readFileSync('public/config.js', {});
+    var json = fs.readFileSync('config.js', {});
     var decoder = new StringDecoder('utf8');
 
     json = decoder.write(json);
