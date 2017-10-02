@@ -10,12 +10,12 @@ var gbStart;
 var gbStatus = false;
 
 function osDetection() {
-    if (process.platform == 'linux' || process.platform == 'sunos' || process.platform == 'freebsd') {
-        return './gunthy-linx64';
+    if (isPi()) {
+        return 'gunthy-arm';
     } else if (process.platform == 'darwin') {
         return './gunthy-macos';
-    } else if (isPi()) {
-        return 'gunthy-arm';
+    } else {
+        return './gunthy-linx64';
     }
 }
 
