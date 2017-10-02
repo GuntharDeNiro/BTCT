@@ -241,6 +241,6 @@ app.use(express.static('public'));
     json = decoder.write(json);
     json = JSON.parse(json);
 
-app.listen(json.ws.clientport, json.ws.hostname, 511, function () {
-    console.log('Gunthy listening on '+json.ws.hostname+' port '+json.ws.clientport+'!');
+app.listen(json.client.port, json.client.hostname, 511, function () {
+    console.log('Gunthy listening on '+json.client.hostname+' port '+json.client.port+'!');
 });

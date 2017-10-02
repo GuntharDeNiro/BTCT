@@ -4,13 +4,22 @@
   "id": "d",
   "properties": {
 
-    "ws": {
+    "client": {
       "type": "object",
       "properties": {
         "port": {
           "type": "integer"
         },
-        "clientport": {
+        "hostname": {
+          "type": "string"
+        }
+      }
+    },
+
+    "ws": {
+      "type": "object",
+      "properties": {
+        "port": {
           "type": "integer"
         },
         "hostname": {
@@ -66,7 +75,11 @@
           "id": "/properties/bot/properties/TV_PROTECTION",
           "type": "boolean"
         },
-        "VERBOSE": {
+		"RETRY_TV_ORDER": {
+          "id": "/properties/bot/properties/RETRY_TV_ORDER",
+          "type": "boolean"
+        },
+		"VERBOSE": {
           "id": "/properties/bot/properties/VERBOSE",
           "type": "boolean"
         },
@@ -223,10 +236,6 @@
           "id": "/properties/imap_listener/properties/enabled",
           "type": "boolean"
         },
-        "enabled": {
-          "id": "/properties/imap_listener/properties/enabled",
-          "type": "boolean"
-        },
         "authorized_froms": {
           "id": "/properties/imap_listener/properties/authorized_froms",
           "type": "string"
@@ -343,8 +352,8 @@
               "id": "/properties/strategies/properties/bb/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/bb/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/bb/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -358,6 +367,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/bb/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/bb/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/bb/properties/PANIC_SELL",
@@ -465,8 +478,8 @@
               "id": "/properties/strategies/properties/gain/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/gain/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/gain/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -480,6 +493,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/gain/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/gain/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/gain/properties/PANIC_SELL",
@@ -587,8 +604,8 @@
               "id": "/properties/strategies/properties/pp/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/pp/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/pp/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -602,6 +619,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/pp/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/pp/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/pp/properties/PANIC_SELL",
@@ -709,8 +730,8 @@
               "id": "/properties/strategies/properties/stepgain/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/stepgain/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/stepgain/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -724,6 +745,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/stepgain/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/stepgain/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/stepgain/properties/PANIC_SELL",
@@ -831,8 +856,8 @@
               "id": "/properties/strategies/properties/bbgain/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/bbgain/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/bbgain/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -846,6 +871,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/bbgain/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/bbgain/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/bbgain/properties/PANIC_SELL",
@@ -953,8 +982,8 @@
               "id": "/properties/strategies/properties/gainbb/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/gainbb/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/gainbb/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -968,6 +997,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/gainbb/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/gainbb/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/gainbb/properties/PANIC_SELL",
@@ -1075,8 +1108,8 @@
               "id": "/properties/strategies/properties/bbstepgain/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/bbstepgain/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -1090,6 +1123,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/bbstepgain/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/bbstepgain/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/bbstepgain/properties/PANIC_SELL",
@@ -1197,8 +1234,8 @@
               "id": "/properties/strategies/properties/stepgainbb/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/stepgainbb/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -1212,6 +1249,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/stepgainbb/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/stepgainbb/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/stepgainbb/properties/PANIC_SELL",
@@ -1319,8 +1360,8 @@
               "id": "/properties/strategies/properties/bbpp/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/bbpp/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/bbpp/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -1334,6 +1375,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/bbpp/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/bbpp/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/bbpp/properties/PANIC_SELL",
@@ -1441,8 +1486,8 @@
               "id": "/properties/strategies/properties/ppbb/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/ppbb/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/ppbb/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -1456,6 +1501,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/ppbb/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/bbpp/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/ppbb/properties/PANIC_SELL",
@@ -1563,8 +1612,8 @@
               "id": "/properties/strategies/properties/gainstepgain/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/gainstepgain/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -1578,6 +1627,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/gainstepgain/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/gainstepgain/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/gainstepgain/properties/PANIC_SELL",
@@ -1685,8 +1738,8 @@
               "id": "/properties/strategies/properties/stepgaingain/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/stepgaingain/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -1700,6 +1753,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/stepgaingain/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/stepgaingain/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/stepgaingain/properties/PANIC_SELL",
@@ -1807,8 +1864,8 @@
               "id": "/properties/strategies/properties/gainpp/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/gainpp/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/gainpp/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -1822,6 +1879,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/gainpp/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/gainpp/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/gainpp/properties/PANIC_SELL",
@@ -1929,8 +1990,8 @@
               "id": "/properties/strategies/properties/ppgain/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/ppgain/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/ppgain/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -1944,6 +2005,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/ppgain/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/ppgain/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/ppgain/properties/PANIC_SELL",
@@ -2051,8 +2116,8 @@
               "id": "/properties/strategies/properties/stepgainpp/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/stepgainpp/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -2066,6 +2131,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/stepgainpp/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/stepgainpp/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/stepgainpp/properties/PANIC_SELL",
@@ -2173,8 +2242,8 @@
               "id": "/properties/strategies/properties/ppstepgain/properties/STDV",
               "type": "integer"
             },
-            "SMA_PERIOD": {
-              "id": "/properties/strategies/properties/ppstepgain/properties/SMA_PERIOD",
+            "SMAPERIOD": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/SMAPERIOD",
               "type": "integer"
             },
             "LASTPOINTS": {
@@ -2188,6 +2257,10 @@
             "AVGMINIMUM": {
               "id": "/properties/strategies/properties/ppstepgain/properties/AVGMINIMUM",
               "type": "number"
+            },
+			"GUNTHY_API": {
+              "id": "/properties/strategies/properties/ppstepgain/properties/GUNTHY_API",
+              "type": "boolean"
             },
             "PANIC_SELL": {
               "id": "/properties/strategies/properties/ppstepgain/properties/PANIC_SELL",
