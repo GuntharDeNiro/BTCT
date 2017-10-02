@@ -11,7 +11,7 @@ var gbStatus = false;
 
 function osDetection() {
     if (isPi()) {
-        return 'gunthy-arm';
+        return './gunthy-arm';
     } else if (process.platform == 'darwin') {
         return './gunthy-macos';
     } else {
