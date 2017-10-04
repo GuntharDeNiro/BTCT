@@ -1,4 +1,7 @@
-`Current Gunbot version : v5.0.4 (v5.0.5 with WebGUI soon)`
+`Current Gunbot version : v5.0.5 with WebGUI`
+
+Official Stable Releases [HERE](https://github.com/GuntharDeNiro/BTCT/releases)
+Nightly / RC Builds [HERE](https://github.com/GuntharDeNiro/Gunthy/releases)
 
 # END USER INSTRUCTIONS
     
