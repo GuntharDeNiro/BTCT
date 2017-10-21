@@ -120,7 +120,7 @@ function processMessage(event) {
         case 'buy_trade':
             for (var k in input.data) {
                 if (input.data.hasOwnProperty(k)) {
-                    $("." + input.exchange + "." + input.pair + "." + input.event + "." + k).text(input.data[k]);
+                    $("." + input.exchange + "." + input.pair + "." + input.event + "." + k).text(toFixedTrunc(input.data[k], 8));
                 }
             }
 
@@ -130,6 +130,23 @@ function processMessage(event) {
             var message = input.data;
             $("." + input.exchange + "." + input.pair + ".messages_list").prepend("<li>" + message + "</li>");
     }
+}
+
+function toFixedTrunc(value, n) {
+    const v = value.toString().split('.');
+    if (n <= 0) return v[0];
+    if (value != 0) {
+        if (v[1].length > n) {
+            let f = v[1] || '';
+            if (f.length > n) return `${v[0]}.${f.substr(0, n)}`;
+            while (f.length < n) f += '0';
+            return `${v[0]}.${f}`;
+        } else {
+            return value;
+        }
+    }
+
+    return value;
 }
 
 var gbStatus;
