@@ -120,6 +120,7 @@ function processMessage(event) {
         case 'buy_trade':
             for (var k in input.data) {
                 if (input.data.hasOwnProperty(k)) {
+                    toFixedTrunc(5.5681152041939902e-7, 10);
                     $("." + input.exchange + "." + input.pair + "." + input.event + "." + k).text(toFixedTrunc(input.data[k], 8));
                 }
             }
@@ -133,9 +134,28 @@ function processMessage(event) {
 }
 
 function toFixedTrunc(value, n) {
-    const v = value.toString().split('.');
-    if (n <= 0) return v[0];
     if (value != 0) {
+        if(/\d+\.?\d*e[\+\-]*\d+/i.test(value)) {
+            let zero = '0',
+            parts = String(value).toLowerCase().split('e'),
+            e = parts.pop(),
+            l = Math.abs(e),
+            sign = e/l,
+            coeff_array = parts[0].split('.');
+
+            if(sign === -1) {
+                value = zero + '.' + new Array(l).join(zero) + coeff_array.join('');
+            }
+            else {
+                let dec = coeff_array[1];
+                if(dec) l = l - dec.length;
+                value = coeff_array.join('') + new Array(l+1).join(zero);
+            }
+        }
+
+        let v = value.toString().split('.');
+        if (n <= 0) return v[0];
+
         if (v[1].length > n) {
             let f = v[1] || '';
             if (f.length > n) return `${v[0]}.${f.substr(0, n)}`;
