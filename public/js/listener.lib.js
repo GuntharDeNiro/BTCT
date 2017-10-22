@@ -120,8 +120,7 @@ function processMessage(event) {
         case 'buy_trade':
             for (var k in input.data) {
                 if (input.data.hasOwnProperty(k)) {
-                    toFixedTrunc(5.5681152041939902e-7, 10);
-                    $("." + input.exchange + "." + input.pair + "." + input.event + "." + k).text(toFixedTrunc(input.data[k], 8));
+                    $("." + input.exchange + "." + input.pair + "." + input.event + "." + k).text(toFixedTrunc(input.data[k], 10));
                 }
             }
 
