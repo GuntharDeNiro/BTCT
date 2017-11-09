@@ -1,4 +1,4 @@
-`Current Gunbot version : v5.0.5 with WebGUI`
+`Current Gunbot version : v6.0.1`
 
 - Official Stable Releases [HERE](https://github.com/GuntharDeNiro/BTCT/releases)
 
