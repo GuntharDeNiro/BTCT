@@ -38,8 +38,8 @@
                 "override": {}
             }
         },
-		"binance": {
-            "IOT-BTC": {
+	"binance": {
+            "ETHBTC": {
                 "strategy": "tssl",
                 "override": {}
             }
