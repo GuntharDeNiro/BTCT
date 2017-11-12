@@ -39,7 +39,7 @@
             }
         },
 	"binance": {
-            "ETHBTC": {
+            "ETH/BTC": {
                 "strategy": "tssl",
                 "override": {}
             }
