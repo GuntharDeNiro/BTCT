@@ -351,6 +351,7 @@
             "PERIOD": 5,
             "RSI_BUY_LEVEL": 30,
             "SELL_RANGE": 0.6,
+	    "GAIN": 2,
             "EMA1": 24,
             "EMA2": 12,
             "HIGH_BB": 1,
