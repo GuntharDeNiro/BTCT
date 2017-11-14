@@ -37,12 +37,6 @@
                 "strategy": "tssl",
                 "override": {}
             }
-        },
-	"binance": {
-            "ETH/BTC": {
-                "strategy": "tssl",
-                "override": {}
-            }
         }
     },
     "strategies": {
@@ -906,10 +900,6 @@
         "bitfinex": {
             "key": "",
             "secret": ""
-        },
-		"binance": {
-            "key": "",
-            "secret": ""
         }
     },
     "bot": {
@@ -924,6 +914,8 @@
         "TV_PYRAMID": true,
         "TV_TRADING_LIMIT_SELL": 0.001,
         "TV_PROTECTION": true,
+	"TV_TRADING_LIMIT_CAP": 0.9,
+	"TV_STOPLOSS_PERCENTAGE": 60,
         "VERBOSE": true,
         "WATCH_MODE": false
     },
