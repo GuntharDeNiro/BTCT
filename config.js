@@ -905,6 +905,7 @@
     "bot": {
         "debug": false,
         "BOT_DELAY": 1,
+	"BOT_CCLEAN": 999,
         "interval_ticker_update": 25000,
         "period_storage_ticker": 2000,
         "timeout_buy": 60000,
