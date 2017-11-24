@@ -57,6 +57,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -80,6 +82,8 @@
             "TSSL_TARGET_ONLY": true,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -101,6 +105,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -122,6 +128,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -143,6 +151,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -166,6 +176,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -187,6 +199,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -211,6 +225,8 @@
             "TSSL_TARGET_ONLY": true,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -232,6 +248,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -261,6 +279,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -288,6 +308,8 @@
             "TSSL_TARGET_ONLY": true,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -312,6 +334,8 @@
             "TSSL_TARGET_ONLY": true,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -335,6 +359,8 @@
             "TSSL_TARGET_ONLY": true,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -358,6 +384,8 @@
             "TSSL_TARGET_ONLY": true,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -382,6 +410,8 @@
             "TSSL_TARGET_ONLY": true,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -409,6 +439,8 @@
             "TSSL_TARGET_ONLY": true,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -432,6 +464,8 @@
             "TSSL_TARGET_ONLY": true,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -455,6 +489,8 @@
             "TSSL_TARGET_ONLY": true,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -476,6 +512,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -502,6 +540,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -523,6 +563,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -547,6 +589,8 @@
             "TSSL_TARGET_ONLY": true,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -568,6 +612,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -593,6 +639,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -614,6 +662,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -635,6 +685,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -660,6 +712,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -685,6 +739,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -707,6 +763,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -729,6 +787,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -754,6 +814,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -779,6 +841,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -801,6 +865,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -823,6 +889,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -849,6 +917,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
@@ -875,6 +945,8 @@
             "DOUBLE_UP_CAP": 1,
             "STOP_LIMIT": 60,
             "BUY_ENABLED": true,
+	    "OKKIES_MODE": true,
+	    "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.0001,
             "MIN_VOLUME_TO_SELL": 0.0001,
             "TRADES_TIMEOUT": 600
