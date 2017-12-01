@@ -43,6 +43,7 @@
         "bb": {
             "NAME": "bb",
             "TRADING_LIMIT": 0.001,
+                        "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "BUY_LEVEL": 0.6,
             "GAIN": 0.6,
@@ -69,6 +70,7 @@
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
             "TRADING_LIMIT": 0.001,
+                        "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "BUY_RANGE": 0.6,
             "EMA1": 24,
@@ -93,6 +95,7 @@
         "gain": {
             "NAME": "gain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.6,
             "GAIN": 0.6,
@@ -117,6 +120,7 @@
         "gainbbrsi": {
             "NAME": "gainbbrsi",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "BUY_LEVEL": 0.6,
             "RSI_SELL_LEVEL": 70,
@@ -141,6 +145,7 @@
         "bbrsigain": {
             "NAME": "bbrsigain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "RSI_BUY_LEVEL": 30,
             "GAIN": 0.6,
@@ -165,6 +170,7 @@
         "pp": {
             "NAME": "pp",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -191,6 +197,7 @@
         "ppbbrsi": {
             "NAME": "ppbbrsi",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "PP_BUY": 1e-8,
             "RSI_SELL_LEVEL": 70,
@@ -217,6 +224,7 @@
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "BUY_RANGE": 0.6,
             "PP_SELL": 0.12345678,
@@ -242,6 +250,7 @@
         "bbrsipp": {
             "NAME": "bbrsipp",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "RSI_BUY_LEVEL": 30,
             "EMA1": 24,
@@ -266,6 +275,7 @@
         "stepgain": {
             "NAME": "stepgain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.6,
             "GAIN": 0.6,
@@ -298,6 +308,7 @@
         "tsslstepgain": {
             "NAME": "tsslstepgain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.6,
             "GAIN": 0.6,
@@ -328,8 +339,9 @@
         "tssl": {
             "NAME": "tssl",
             "BUY_LEVEL": 0.1,
-            "GAIN": 0.6,
+            "GAIN": 2,
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "BUY_RANGE": 0.6,
             "SELL_RANGE": 0.6,
@@ -355,6 +367,7 @@
         "tsslgain": {
             "NAME": "tsslgain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_RANGE": 0.6,
             "BUY_LEVEL": 0.1,
@@ -381,10 +394,11 @@
         "bbrsitssl": {
             "NAME": "bbrsitssl",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "RSI_BUY_LEVEL": 30,
             "SELL_RANGE": 0.6,
-            "GAIN": 0.6,
+            "GAIN": 2,
             "EMA1": 24,
             "EMA2": 12,
             "HIGH_BB": 1,
@@ -407,9 +421,10 @@
         "pptssl": {
             "NAME": "pptssl",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
-            "GAIN": 0.6,
+            "GAIN": 2,
             "SELL_RANGE": 0.6,
             "EMA1": 16,
             "EMA2": 8,
@@ -434,9 +449,10 @@
         "stepgaintssl": {
             "NAME": "stepgaintssl",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.6,
-            "GAIN": 0.6,
+            "GAIN": 2,
             "SELL_RANGE": 0.6,
             "EMA1": 16,
             "EMA2": 8,
@@ -464,9 +480,10 @@
         "gaintssl": {
             "NAME": "gaintssl",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.6,
-            "GAIN": 0.6,
+            "GAIN": 2,
             "SELL_RANGE": 0.6,
             "EMA1": 16,
             "EMA2": 8,
@@ -490,9 +507,10 @@
         "bbtssl": {
             "NAME": "bbtssl",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "BUY_LEVEL": 0.6,
-            "GAIN": 0.6,
+            "GAIN": 2,
             "SELL_RANGE": 0.6,
             "EMA1": 24,
             "EMA2": 12,
@@ -516,6 +534,7 @@
         "bbrsi": {
             "NAME": "bbrsi",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "RSI_BUY_LEVEL": 30,
             "RSI_SELL_LEVEL": 70,
@@ -540,6 +559,7 @@
         "stepgainbbrsi": {
             "NAME": "stepgainbbrsi",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.6,
             "GAIN": 0.6,
@@ -569,6 +589,7 @@
         "bbbbrsi": {
             "NAME": "bbbbrsi",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "BUY_LEVEL": 0.6,
             "RSI_SELL_LEVEL": 70,
@@ -595,6 +616,7 @@
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "BUY_RANGE": 0.6,
             "RSI_SELL_LEVEL": 70,
@@ -620,6 +642,7 @@
         "bbrsibb": {
             "NAME": "bbrsibb",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "RSI_BUY_LEVEL": 30,
             "GAIN": 0.6,
@@ -644,6 +667,7 @@
         "bbrsistepgain": {
             "NAME": "bbrsistepgain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "RSI_BUY_LEVEL": 30,
             "GAIN": 0.6,
@@ -672,6 +696,7 @@
         "bbgain": {
             "NAME": "bbgain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -720,6 +745,7 @@
         "bbstepgain": {
             "NAME": "bbstepgain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -748,6 +774,7 @@
         "stepgainbb": {
             "NAME": "stepgainbb",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -776,6 +803,7 @@
         "bbpp": {
             "NAME": "bbpp",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -801,6 +829,7 @@
         "ppbb": {
             "NAME": "ppbb",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -826,6 +855,7 @@
         "gainstepgain": {
             "NAME": "gainstepgain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -854,6 +884,7 @@
         "stepgaingain": {
             "NAME": "stepgaingain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -882,6 +913,7 @@
         "gainpp": {
             "NAME": "gainpp",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -907,6 +939,7 @@
         "ppgain": {
             "NAME": "ppgain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -932,6 +965,7 @@
         "stepgainpp": {
             "NAME": "stepgainpp",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -961,6 +995,7 @@
         "ppstepgain": {
             "NAME": "ppstepgain",
             "TRADING_LIMIT": 0.001,
+                "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
             "GAIN": 0.6,
@@ -1015,7 +1050,6 @@
         "BOT_DELAY": 1,
         "BOT_CCLEAN": 999,
         "CANCEL_ORDERS_ENABLED": true,
-        "FUNDS_RESERVE": 0.001,
         "interval_ticker_update": 25000,
         "period_storage_ticker": 2000,
         "timeout_buy": 60000,
