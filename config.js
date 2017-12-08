@@ -2,39 +2,39 @@
     "pairs": {
         "poloniex": {
             "BTC_ETH": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             }
         },
         "bittrex": {
             "BTC-ETC": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             }
         },
         "kraken": {
             "XETHXXBT": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             },
             "GNOXBT": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             },
             "XXBTZEUR": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             }
         },
         "cryptopia": {
             "DOGE_BTC": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             }
         },
         "bitfinex": {
             "IOT-BTC": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             }
         }
@@ -53,8 +53,9 @@
             "RSI_BUY_LEVEL": 30,
             "OKKIES_MODE": true, 
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001
+        },
         "bb": {
             "NAME": "bb",
             "TRADING_LIMIT": 0.001,
@@ -79,8 +80,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "tsslbb": {
@@ -109,8 +110,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "gain": {
@@ -137,8 +138,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "ichimoku": {
@@ -150,8 +151,8 @@
             "SMAPERIOD": 50,
             "PANIC_SELL": false,
             "BUY_ENABLED": true,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "gainbbrsi": {
@@ -178,8 +179,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "bbrsigain": {
@@ -205,8 +206,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "pp": {
@@ -235,8 +236,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "ppbbrsi": {
@@ -263,14 +264,14 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "tsslpp": {
             "NAME": "tsslpp",
             "BUY_LEVEL": 0.1,
-            "GAIN": 0.6,
+            "GAIN": 1.2,
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
@@ -294,8 +295,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "bbrsipp": {
@@ -321,8 +322,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "stepgain": {
@@ -357,8 +358,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "tsslstepgain": {
@@ -367,7 +368,7 @@
             "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.6,
-            "GAIN": 0.6,
+            "GAIN": 1.2,
             "BUY_RANGE": 0.6,
             "EMA1": 16,
             "EMA2": 8,
@@ -391,14 +392,14 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "tssl": {
             "NAME": "tssl",
             "BUY_LEVEL": 0.1,
-            "GAIN": 2,
+            "GAIN": 1.2,
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
@@ -422,8 +423,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "tsslgain": {
@@ -433,7 +434,7 @@
             "PERIOD": 15,
             "BUY_RANGE": 0.6,
             "BUY_LEVEL": 0.1,
-            "GAIN": 0.6,
+            "GAIN": 1.2,
             "EMA1": 16,
             "EMA2": 8,
             "HIGH_BB": 49,
@@ -452,8 +453,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "bbrsitssl": {
@@ -463,7 +464,7 @@
             "PERIOD": 5,
             "RSI_BUY_LEVEL": 30,
             "SELL_RANGE": 0.6,
-            "GAIN": 2,
+            "GAIN": 1.2,
             "EMA1": 24,
             "EMA2": 12,
             "HIGH_BB": 1,
@@ -481,8 +482,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "pptssl": {
@@ -491,7 +492,7 @@
             "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.1,
-            "GAIN": 2,
+            "GAIN": 1.2,
             "SELL_RANGE": 0.6,
             "EMA1": 16,
             "EMA2": 8,
@@ -512,8 +513,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "stepgaintssl": {
@@ -522,7 +523,7 @@
             "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.6,
-            "GAIN": 2,
+            "GAIN": 1.2,
             "SELL_RANGE": 0.6,
             "EMA1": 16,
             "EMA2": 8,
@@ -546,8 +547,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "gaintssl": {
@@ -556,7 +557,7 @@
             "FUNDS_RESERVE": 0.001,
             "PERIOD": 15,
             "BUY_LEVEL": 0.6,
-            "GAIN": 2,
+            "GAIN": 1.2,
             "SELL_RANGE": 0.6,
             "EMA1": 16,
             "EMA2": 8,
@@ -576,8 +577,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "bbtssl": {
@@ -586,7 +587,7 @@
             "FUNDS_RESERVE": 0.001,
             "PERIOD": 5,
             "BUY_LEVEL": 0.6,
-            "GAIN": 2,
+            "GAIN": 1.2,
             "SELL_RANGE": 0.6,
             "EMA1": 24,
             "EMA2": 12,
@@ -606,8 +607,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "bbrsi": {
@@ -633,8 +634,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "stepgainbbrsi": {
@@ -666,8 +667,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "bbbbrsi": {
@@ -694,8 +695,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "tsslbbrsi": {
@@ -725,8 +726,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "bbrsibb": {
@@ -752,8 +753,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "bbrsistepgain": {
@@ -783,8 +784,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "bbgain": {
@@ -811,8 +812,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "gainbb": {
@@ -838,8 +839,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "bbstepgain": {
@@ -870,8 +871,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "stepgainbb": {
@@ -902,8 +903,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "bbpp": {
@@ -931,8 +932,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "ppbb": {
@@ -960,8 +961,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "gainstepgain": {
@@ -992,8 +993,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "stepgaingain": {
@@ -1024,8 +1025,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "gainpp": {
@@ -1053,8 +1054,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "ppgain": {
@@ -1082,8 +1083,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "stepgainpp": {
@@ -1115,8 +1116,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         },
         "ppstepgain": {
@@ -1148,8 +1149,8 @@
             "BUY_ENABLED": true,
             "OKKIES_MODE": true,
             "BTC_MONEY_FLOW": 35,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 600
         }
     },
@@ -1180,6 +1181,7 @@
         "BOT_DELAY": 1,
         "BOT_CCLEAN": 999,
         "CANCEL_ORDERS_ENABLED": true,
+        "RESERVE_PILE_UP": false,
         "interval_ticker_update": 25000,
         "period_storage_ticker": 2000,
         "timeout_buy": 60000,
