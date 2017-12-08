@@ -1,7 +1,7 @@
 {
     "pairs": {
         "poloniex": {
-            "BTC_ETH": {
+            "BTC-ETH": {
                 "strategy": "emotionless",
                 "override": {}
             }
@@ -13,27 +13,33 @@
             }
         },
         "kraken": {
-            "XETHXXBT": {
+            "BTC-ETH": {
                 "strategy": "emotionless",
                 "override": {}
             },
-            "GNOXBT": {
+            "BTC-GNO": {
                 "strategy": "emotionless",
                 "override": {}
             },
-            "XXBTZEUR": {
+            "EUR-BTC": {
                 "strategy": "emotionless",
                 "override": {}
             }
         },
         "cryptopia": {
-            "DOGE_BTC": {
+            "BTC-DOGE": {
                 "strategy": "emotionless",
                 "override": {}
             }
         },
         "bitfinex": {
-            "IOT-BTC": {
+            "BTC-IOT": {
+                "strategy": "emotionless",
+                "override": {}
+            }
+        }
+        "binance": {
+            "BTC-IOT": {
                 "strategy": "emotionless",
                 "override": {}
             }
@@ -60,11 +66,11 @@
             "NAME": "bb",
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "BUY_LEVEL": 0.6,
             "GAIN": 0.6,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 45,
             "LOW_BB": 45,
             "STDV": 2,
@@ -90,10 +96,10 @@
             "GAIN": 0.6,
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "BUY_RANGE": 0.6,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 45,
             "LOW_BB": 45,
             "STDV": 2,
@@ -159,11 +165,11 @@
             "NAME": "gainbbrsi",
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "BUY_LEVEL": 0.6,
             "RSI_SELL_LEVEL": 70,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 1,
             "LOW_BB": 1,
             "STDV": 2,
@@ -187,11 +193,11 @@
             "NAME": "bbrsigain",
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "RSI_BUY_LEVEL": 30,
             "GAIN": 0.6,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 1,
             "LOW_BB": 1,
             "STDV": 2,
@@ -244,11 +250,11 @@
             "NAME": "ppbbrsi",
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "PP_BUY": 1e-8,
             "RSI_SELL_LEVEL": 70,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 1,
             "LOW_BB": 1,
             "STDV": 2,
@@ -274,11 +280,11 @@
             "GAIN": 1.2,
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "BUY_RANGE": 0.6,
             "PP_SELL": 0.12345678,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 45,
             "LOW_BB": 45,
             "STDV": 2,
@@ -303,10 +309,10 @@
             "NAME": "bbrsipp",
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "RSI_BUY_LEVEL": 30,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 1,
             "LOW_BB": 1,
             "STDV": 2,
@@ -402,11 +408,11 @@
             "GAIN": 1.2,
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "BUY_RANGE": 0.6,
             "SELL_RANGE": 0.6,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 45,
             "LOW_BB": 45,
             "STDV": 2,
@@ -461,12 +467,12 @@
             "NAME": "bbrsitssl",
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "RSI_BUY_LEVEL": 30,
             "SELL_RANGE": 0.6,
             "GAIN": 1.2,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 1,
             "LOW_BB": 1,
             "STDV": 2,
@@ -585,12 +591,12 @@
             "NAME": "bbtssl",
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "BUY_LEVEL": 0.6,
             "GAIN": 1.2,
             "SELL_RANGE": 0.6,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 45,
             "LOW_BB": 45,
             "STDV": 2,
@@ -615,11 +621,11 @@
             "NAME": "bbrsi",
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "RSI_BUY_LEVEL": 30,
             "RSI_SELL_LEVEL": 70,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 1,
             "LOW_BB": 1,
             "STDV": 2,
@@ -675,11 +681,11 @@
             "NAME": "bbbbrsi",
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "BUY_LEVEL": 0.6,
             "RSI_SELL_LEVEL": 70,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 45,
             "LOW_BB": 45,
             "STDV": 2,
@@ -705,11 +711,11 @@
             "GAIN": 0.6,
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "BUY_RANGE": 0.6,
             "RSI_SELL_LEVEL": 70,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 45,
             "LOW_BB": 45,
             "STDV": 2,
@@ -734,11 +740,11 @@
             "NAME": "bbrsibb",
             "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.001,
-            "PERIOD": 5,
+            "PERIOD": 15,
             "RSI_BUY_LEVEL": 30,
             "GAIN": 0.6,
-            "EMA1": 24,
-            "EMA2": 12,
+            "EMA1": 16,
+            "EMA2": 8,
             "HIGH_BB": 45,
             "LOW_BB": 45,
             "STDV": 2,
@@ -1175,11 +1181,15 @@
             "key": "",
             "secret": ""
         }
+        "binance": {
+            "key": "",
+            "secret": ""
+        }
     },
     "bot": {
         "debug": false,
         "BOT_DELAY": 1,
-        "BOT_CCLEAN": 999,
+        "BOT_CCLEAN": 2,
         "CANCEL_ORDERS_ENABLED": true,
         "RESERVE_PILE_UP": false,
         "interval_ticker_update": 25000,
