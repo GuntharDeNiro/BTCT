@@ -37,7 +37,7 @@
                 "strategy": "emotionless",
                 "override": {}
             }
-        }
+        },
         "binance": {
             "BTC-IOT": {
                 "strategy": "emotionless",
@@ -1180,7 +1180,7 @@
         "bitfinex": {
             "key": "",
             "secret": ""
-        }
+        },
         "binance": {
             "key": "",
             "secret": ""
