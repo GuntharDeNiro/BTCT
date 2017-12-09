@@ -60,7 +60,8 @@
             "OKKIES_MODE": true, 
             "BTC_MONEY_FLOW": 35,
             "MIN_VOLUME_TO_BUY": 0.001,
-            "MIN_VOLUME_TO_SELL": 0.001
+            "MIN_VOLUME_TO_SELL": 0.001,
+            "TRADES_TIMEOUT": 600
         },
         "bb": {
             "NAME": "bb",
@@ -156,6 +157,12 @@
             "STDV": 2,
             "SMAPERIOD": 50,
             "PANIC_SELL": false,
+            "DOUBLE_UP": false,
+            "DOUBLE_UP_CAP": 1,
+            "DU_CAP_COUNT": 3,
+            "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
+            "RSI_BUY_LEVEL": 30,
             "BUY_ENABLED": true,
             "MIN_VOLUME_TO_BUY": 0.001,
             "MIN_VOLUME_TO_SELL": 0.001,
