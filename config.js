@@ -1245,6 +1245,8 @@
 	},
 	"exchanges": {
 		"bittrex": {
+			"masterkey": "",
+			"mastersecret": "",
 			"key": "",
 			"secret": ""
 		},
@@ -1267,6 +1269,8 @@
 			"secret": ""
 		},
 		"bitfinex": {
+			"masterkey": "",
+			"mastersecret": "",
 			"key": "",
 			"secret": ""
 		},
