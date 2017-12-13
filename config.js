@@ -679,35 +679,7 @@
 			"MIN_VOLUME_TO_SELL": 0.001,
 			"TRADES_TIMEOUT": 600
 		},
-		"bbrsi": {
-			"NAME": "bbrsi",
-			"TRADING_LIMIT": 0.001,
-			"FUNDS_RESERVE": 0.001,
-			"PERIOD": 15,
-			"RSI_BUY_ENABLED": false,
-			"RSI_SELL_ENABLED": false,
-			"RSI_BUY_LEVEL": 30,
-			"RSI_SELL_LEVEL": 70,
-			"EMA1": 16,
-			"EMA2": 8,
-			"HIGH_BB": 1,
-			"LOW_BB": 1,
-			"STDV": 2,
-			"SMAPERIOD": 50,
-			"PANIC_SELL": false,
-			"DOUBLE_UP": false,
-			"DOUBLE_UP_CAP": 1,
-			"DU_CAP_COUNT": 3,
-			"DU_METHOD": "HIGHBB",
-			"DU_BUYDOWN": 2,
-			"STOP_LIMIT": 60,
-			"BUY_ENABLED": true,
-			"OKKIES_MODE": true,
-			"BTC_MONEY_FLOW": 35,
-			"MIN_VOLUME_TO_BUY": 0.001,
-			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
-		},
+		
 		"stepgainbbrsi": {
 			"NAME": "stepgainbbrsi",
 			"TRADING_LIMIT": 0.001,
@@ -1277,14 +1249,20 @@
 			"secret": ""
 		},
 		"poloniex": {
+			"masterkey": "",
+			"mastersecret": "",
 			"key": "",
 			"secret": ""
 		},
 		"kraken": {
+			"masterkey": "",
+			"mastersecret": "",
 			"key": "",
 			"secret": ""
 		},
 		"cryptopia": {
+			"masterkey": "",
+			"mastersecret": "",
 			"key": "",
 			"secret": ""
 		},
@@ -1293,6 +1271,8 @@
 			"secret": ""
 		},
 		"binance": {
+			"masterkey": "",
+			"mastersecret": "",
 			"key": "",
 			"secret": ""
 		}
