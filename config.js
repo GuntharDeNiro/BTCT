@@ -48,10 +48,11 @@
 	"strategies": {
 		"emotionless": {
 		    "NAME": "emotionless",
-		    "TRADING_LIMIT": 0.001,
+		    "TRADING_LIMIT": 0.01,
+		    "FUNDS_RESERVE" : 0.001,
 		    "PERIOD": 15,
-		    "BUY_LEVEL": 0.6,
-		    "GAIN": 0.6,
+		    "BUY_LEVEL": 0.01,
+		    "GAIN": 0.01,
 		    "EMA1": 16,
 		    "EMA2": 8,
 		    "HIGH_BB": 49,
@@ -65,7 +66,7 @@
 		    "BUY_ENABLED": true,
 		    "MIN_VOLUME_TO_BUY": 0.0001,
 		    "MIN_VOLUME_TO_SELL": 0.0001,
-		    "TRADES_TIMEOUT": 600,
+		    "TRADES_TIMEOUT": 6,
 		    "MICROTRADES" : true
 		},
 		"bb": {
