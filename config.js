@@ -66,7 +66,7 @@
 		    "BUY_ENABLED": true,
 		    "MIN_VOLUME_TO_BUY": 0.0001,
 		    "MIN_VOLUME_TO_SELL": 0.0001,
-		    "TRADES_TIMEOUT": 6,
+		    "TRADES_TIMEOUT": 600,
 		    "MICROTRADES" : true
 		},
 		"bb": {
