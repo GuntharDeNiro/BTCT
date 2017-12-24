@@ -33,7 +33,7 @@
 			}
 		},
 		"bitfinex": {
-			"BTC-IOT": {
+			"BTC-IOTA": {
 				"strategy": "emotionless",
 				"override": {}
 			}
