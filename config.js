@@ -1045,7 +1045,9 @@
 		"VERBOSE": true,
 		"WATCH_MODE": false,
 		"withdraw_address": "YOURBTCADDRESSHERE",
-		"withdraw_threshold": 0.5
+		"withdraw_threshold": 0.5,
+		"TOKEN": "put_your_TOKEN_here",
+		"chat_id": "put_your_TELEGRAM_ID_here"
 	},
 	"ws": {
 		"port": 5001,
