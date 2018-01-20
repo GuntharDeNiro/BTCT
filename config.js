@@ -43,6 +43,12 @@
 				"strategy": "emotionless",
 				"override": {}
 			}
+		},
+		"cex": {
+			"USD-BTC": {
+				"strategy": "emotionless",
+				"override": {}
+			}
 		}
 	},
 	"strategies": {
@@ -69,7 +75,8 @@
 		    "MIN_VOLUME_TO_BUY": 0.0001,
 		    "MIN_VOLUME_TO_SELL": 0.0001,
 		    "TRADES_TIMEOUT": 600,
-		    "MICROTRADES" : true
+		    "MICROTRADES" : true,
+		    "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"bb": {
 			"NAME": "bb",
@@ -103,7 +110,9 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
+
 		},
 		"tsslbb": {
 			"NAME": "tsslbb",
@@ -139,7 +148,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"gain": {
 			"NAME": "gain",
@@ -173,7 +183,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"ichimoku": {
 			"NAME": "ichimoku",
@@ -195,7 +206,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"pp": {
 			"NAME": "pp",
@@ -231,7 +243,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"tsslpp": {
 			"NAME": "tsslpp",
@@ -268,7 +281,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"stepgain": {
 			"NAME": "stepgain",
@@ -310,7 +324,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"tsslstepgain": {
 			"NAME": "tsslstepgain",
@@ -350,7 +365,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"tssl": {
 			"NAME": "tssl",
@@ -387,7 +403,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"tsslgain": {
 			"NAME": "tsslgain",
@@ -423,7 +440,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"pptssl": {
 			"NAME": "pptssl",
@@ -460,7 +478,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"stepgaintssl": {
 			"NAME": "stepgaintssl",
@@ -500,7 +519,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"gaintssl": {
 			"NAME": "gaintssl",
@@ -536,7 +556,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"bbtssl": {
 			"NAME": "bbtssl",
@@ -572,7 +593,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"bbgain": {
 			"NAME": "bbgain",
@@ -606,7 +628,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"gainbb": {
 			"NAME": "gainbb",
@@ -639,7 +662,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"bbstepgain": {
 			"NAME": "bbstepgain",
@@ -677,7 +701,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"stepgainbb": {
 			"NAME": "stepgainbb",
@@ -715,7 +740,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"bbpp": {
 			"NAME": "bbpp",
@@ -750,7 +776,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"ppbb": {
 			"NAME": "ppbb",
@@ -785,7 +812,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"gainstepgain": {
 			"NAME": "gainstepgain",
@@ -823,7 +851,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"stepgaingain": {
 			"NAME": "stepgaingain",
@@ -861,7 +890,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"gainpp": {
 			"NAME": "gainpp",
@@ -896,7 +926,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"ppgain": {
 			"NAME": "ppgain",
@@ -931,7 +962,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"stepgainpp": {
 			"NAME": "stepgainpp",
@@ -970,7 +1002,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		},
 		"ppstepgain": {
 			"NAME": "ppstepgain",
@@ -1009,7 +1042,8 @@
 			"TA_ALWAYS_ON": false,
 			"MIN_VOLUME_TO_BUY": 0.001,
 			"MIN_VOLUME_TO_SELL": 0.001,
-			"TRADES_TIMEOUT": 600
+			"TRADES_TIMEOUT": 600,
+		        "CANCEL_ORDERS_CYCLE_CAP": 1
 		}
 	},
 	"exchanges": {
@@ -1044,6 +1078,12 @@
 			"secret": ""
 		},
 		"binance": {
+			"masterkey": "",
+			"mastersecret": "",
+			"key": "",
+			"secret": ""
+		},
+		"cex": {
 			"masterkey": "",
 			"mastersecret": "",
 			"key": "",
