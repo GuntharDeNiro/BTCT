@@ -1087,7 +1087,7 @@
 		"WATCH_MODE": false,
 		"withdraw_address": "YOURBTCADDRESSHERE",
 		"withdraw_threshold": 0.5,
-		"TELEGRAM_ENABLED": true,
+		"TELEGRAM_ENABLED": false,
 		"TELEGRAM_NICK": "Gunbot",
 		"TOKEN": "put_your_TOKEN_here",
 		"chat_id": "put_your_TELEGRAM_ID_here"
