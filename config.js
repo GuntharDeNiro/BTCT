@@ -127,6 +127,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -193,6 +194,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -260,6 +262,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -326,6 +329,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -392,6 +396,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -460,6 +465,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -529,6 +535,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -595,6 +602,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -666,6 +674,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -741,6 +750,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
+            "DU_BUYDOWN": 2,
             "AIRDROP": true,
 
             "TRAIL_ME_RT": false,
@@ -800,6 +810,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -870,6 +881,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -942,6 +954,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1009,6 +1022,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1077,6 +1091,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1144,6 +1159,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1211,6 +1227,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1281,6 +1298,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1355,6 +1373,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1422,6 +1441,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1489,6 +1509,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1559,6 +1580,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1629,6 +1651,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1696,6 +1719,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1769,6 +1793,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1840,6 +1865,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
@@ -1911,6 +1937,7 @@
             "DOUBLE_UP_CAP": 1,
             "DU_CAP_COUNT": 0,
             "DU_METHOD": "HIGHBB",
+            "DU_BUYDOWN": 2,
             "RSI_DU_BUY": 30,
 
             "RT_ENABLED": false,
