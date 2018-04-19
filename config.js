@@ -2116,8 +2116,8 @@
         "withdraw_threshold": 0.5,
         "TELEGRAM_ENABLED": true,
         "TELEGRAM_NICK": "Gunbot",
-        "TOKEN": "521659685:AAHvDeZO5CQ9UN_XgA2rWysGPo6kZBsa6Pc",
-        "chat_id": 320492995
+        "TOKEN": "YOURTOKENHERE",
+        "chat_id": YOURCHATIDHERE
     },
     "ws": {
         "port": 5001,
