@@ -89,7 +89,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
             "TRADING_LIMIT": 0.2,
@@ -134,7 +134,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -156,7 +156,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
             "TRADING_LIMIT": 0.2,
@@ -224,7 +224,7 @@
             "BUY_RANGE": 0.6,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
             "TRADING_LIMIT": 0.2,
@@ -269,7 +269,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -291,7 +291,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
             "TRADING_LIMIT": 0.2,
@@ -336,7 +336,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -362,7 +362,7 @@
             "BUYLVL": 2,
                 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELLLVL1": 0.6,
             "SELLLVL2": 2,
             "SELLLVL3": 70,
@@ -411,7 +411,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -433,7 +433,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
             "TRADING_LIMIT": 0.2,
@@ -478,7 +478,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -501,7 +501,7 @@
             "PP_BUY": 12345,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "PP_SELL": 12345,
 
             "TRADING_FEES": 0.25,
@@ -547,7 +547,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -571,7 +571,7 @@
             "BUY_RANGE": 0.6,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "PP_SELL": 12345,
 
             "TRADING_FEES": 0.25,
@@ -617,7 +617,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -639,7 +639,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
             "TRADING_LIMIT": 0.2,
@@ -684,7 +684,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -707,7 +707,7 @@
             "BUY_RANGE": 0.6,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELLLVL1": 0.6,
             "SELLLVL2": 2,
             "SELLLVL3": 70,
@@ -756,7 +756,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -779,7 +779,7 @@
             "BUY_RANGE": 0.6,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELL_RANGE": 0.6,
             "TSSL_TARGET_ONLY": true,
 
@@ -826,7 +826,7 @@
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
             "DU_BUYDOWN": 2,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_RT": false,
             "TRAIL_ME_DU": false,
@@ -847,7 +847,7 @@
             "BUY_RANGE": 0.6,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
             "TRADING_LIMIT": 0.2,
@@ -892,7 +892,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -916,7 +916,7 @@
             "PP_BUY": 12345,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELL_RANGE": 0.6,
             "TSSL_TARGET_ONLY": true,
 
@@ -963,7 +963,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -989,7 +989,7 @@
             "BUYLVL": 2,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELL_RANGE": 0.6,
             "TSSL_TARGET_ONLY": true,
 
@@ -1036,7 +1036,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_RT": false,
@@ -1057,7 +1057,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELL_RANGE": 0.6,
             "TSSL_TARGET_ONLY": true,
 
@@ -1104,7 +1104,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1126,7 +1126,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELL_RANGE": 0.6,
             "TSSL_TARGET_ONLY": true,
 
@@ -1173,7 +1173,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1196,7 +1196,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
             "TRADING_LIMIT": 0.2,
@@ -1241,7 +1241,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1264,7 +1264,7 @@
 
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
             "TRADING_LIMIT": 0.2,
@@ -1309,7 +1309,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1331,7 +1331,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELLLVL1": 0.6,
             "SELLLVL2": 2,
             "SELLLVL3": 70,
@@ -1380,7 +1380,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1406,7 +1406,7 @@
             "BUYLVL": 2,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELLLVL1": 0.6,
             "SELLLVL2": 2,
             "SELLLVL3": 70,
@@ -1455,7 +1455,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1477,7 +1477,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "PP_SELL": 2,
 
             "TRADING_FEES": 0.25,
@@ -1523,7 +1523,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1546,7 +1546,7 @@
             "PP_BUY": 2,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
             "TRADING_LIMIT": 0.2,
@@ -1591,7 +1591,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1613,7 +1613,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELLLVL1": 0.6,
             "SELLLVL2": 2,
             "SELLLVL3": 70,
@@ -1662,7 +1662,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1688,7 +1688,7 @@
             "BUYLVL": 2,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
             "TRADING_LIMIT": 0.2,
@@ -1733,7 +1733,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1755,7 +1755,7 @@
             "BUY_LEVEL": 0.1,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "PP_SELL": 123456,
 
             "TRADING_FEES": 0.25,
@@ -1801,7 +1801,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1824,7 +1824,7 @@
             "PP_BUY": 123456,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELL_RANGE": 0.6,
             "TSSL_TARGET_ONLY": true,
             "SELLLVL1": 0.6,
@@ -1875,7 +1875,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1901,7 +1901,7 @@
             "BUYLVL": 2,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "PP_SELL": 2,
 
             "TRADING_FEES": 0.25,
@@ -1947,7 +1947,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
@@ -1970,7 +1970,7 @@
             "PP_BUY": 123456,
 
             "SELL_ENABLED": true,
-            "GAIN": 0.1,
+            "GAIN": 0.6,
             "SELLLVL1": 0.6,
             "SELLLVL2": 2,
             "SELLLVL3": 70,
@@ -2019,7 +2019,7 @@
             "RT_MAXBAG_PROTECTION": 10,
             "RT_BUY_BUYDOWN": 2,
             "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": true,
+            "AIRDROP": false,
 
             "TRAIL_ME_SELL": false,
             "TRAIL_ME_BUY": false,
