@@ -2117,7 +2117,7 @@
         "TELEGRAM_ENABLED": true,
         "TELEGRAM_NICK": "Gunbot",
         "TOKEN": "YOURTOKENHERE",
-        "chat_id": YOURCHATIDHERE
+        "chat_id": 123456
     },
     "ws": {
         "port": 5001,
