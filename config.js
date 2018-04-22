@@ -1,7 +1,7 @@
 {
     "version": {
-        "version": 75,
-        "gb_version": "942_b_509"
+        "version": 76,
+        "gb_version": "942_b_510"
     },
     "pairs": {
         "poloniex": {
@@ -92,7 +92,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -103,8 +103,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "bb": {
@@ -117,7 +117,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -185,7 +185,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -252,7 +252,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -327,7 +327,7 @@
             "SELLLVL": 2,
                 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -394,7 +394,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -463,7 +463,7 @@
             "PP_SELL": 12345,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -533,7 +533,7 @@
             "PP_SELL": 12345,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -600,7 +600,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -672,7 +672,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -742,7 +742,7 @@
             "TSSL_TARGET_ONLY": true,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -808,7 +808,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -879,7 +879,7 @@
             "TSSL_TARGET_ONLY": true,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -952,7 +952,7 @@
             "TSSL_TARGET_ONLY": true,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1020,7 +1020,7 @@
             "TSSL_TARGET_ONLY": true,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1089,7 +1089,7 @@
             "TSSL_TARGET_ONLY": true,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1157,7 +1157,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1225,7 +1225,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1296,7 +1296,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1371,7 +1371,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1439,7 +1439,7 @@
             "PP_SELL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1507,7 +1507,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1578,7 +1578,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1649,7 +1649,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1717,7 +1717,7 @@
             "PP_SELL": 123456,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1791,7 +1791,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1863,7 +1863,7 @@
             "PP_SELL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1935,7 +1935,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.001,
+            "TRADING_LIMIT": 0.002,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
