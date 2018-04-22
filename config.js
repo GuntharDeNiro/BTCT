@@ -1,6 +1,6 @@
 {
     "version": {
-        "version": 74,
+        "version": 75,
         "gb_version": "942_b_509"
     },
     "pairs": {
@@ -117,7 +117,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -170,8 +170,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "tsslbb": {
@@ -185,7 +185,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -238,8 +238,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "gain": {
@@ -252,7 +252,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -305,8 +305,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
             "stepgain": {
@@ -327,7 +327,7 @@
             "SELLLVL": 2,
                 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -380,8 +380,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "custom": {
@@ -394,7 +394,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -447,8 +447,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "pp": {
@@ -463,7 +463,7 @@
             "PP_SELL": 12345,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -516,8 +516,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
 
@@ -533,7 +533,7 @@
             "PP_SELL": 12345,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -586,8 +586,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "ichimoku": {
@@ -600,7 +600,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -653,8 +653,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "tsslstepgain": {
@@ -672,7 +672,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -725,8 +725,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "tssl": {
@@ -742,7 +742,7 @@
             "TSSL_TARGET_ONLY": true,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -793,8 +793,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "tsslgain": {
@@ -808,7 +808,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -861,8 +861,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
 
@@ -879,7 +879,7 @@
             "TSSL_TARGET_ONLY": true,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -932,8 +932,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "stepgaintssl": {
@@ -952,7 +952,7 @@
             "TSSL_TARGET_ONLY": true,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1004,8 +1004,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "gaintssl": {
@@ -1020,7 +1020,7 @@
             "TSSL_TARGET_ONLY": true,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1073,8 +1073,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "bbtssl": {
@@ -1089,7 +1089,7 @@
             "TSSL_TARGET_ONLY": true,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1142,8 +1142,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
 
@@ -1157,7 +1157,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1210,8 +1210,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "gainbb": {
@@ -1225,7 +1225,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1278,8 +1278,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "bbstepgain": {
@@ -1296,7 +1296,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1349,8 +1349,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "stepgainbb": {
@@ -1371,7 +1371,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1424,8 +1424,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "bbpp": {
@@ -1439,7 +1439,7 @@
             "PP_SELL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1492,8 +1492,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "ppbb": {
@@ -1507,7 +1507,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1560,8 +1560,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "gainstepgain": {
@@ -1578,7 +1578,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1631,8 +1631,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "stepgaingain": {
@@ -1649,7 +1649,7 @@
             "GAIN": 0.6,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1702,8 +1702,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "gainpp": {
@@ -1717,7 +1717,7 @@
             "PP_SELL": 123456,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1770,8 +1770,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "ppgain": {
@@ -1791,7 +1791,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1844,8 +1844,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "stepgainpp": {
@@ -1863,7 +1863,7 @@
             "PP_SELL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1916,8 +1916,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         },
         "ppstepgain": {
@@ -1935,7 +1935,7 @@
             "SELLLVL": 2,
 
             "TRADING_FEES": 0.25,
-            "TRADING_LIMIT": 0.2,
+            "TRADING_LIMIT": 0.001,
             "FUNDS_RESERVE": 0.0001,
 
             "PERIOD": 15,
@@ -1988,8 +1988,8 @@
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
-            "MIN_VOLUME_TO_BUY": 0.0001,
-            "MIN_VOLUME_TO_SELL": 0.0001,
+            "MIN_VOLUME_TO_BUY": 0.001,
+            "MIN_VOLUME_TO_SELL": 0.001,
             "TRADES_TIMEOUT": 0
         }
     },
@@ -2061,11 +2061,13 @@
         "TRADING_LIMIT_BUY_PYRAMID": 0.01,
         "TV_GAIN": 0.6,
         "TV_TRADING_LIMIT_BUY": 0.001,
+        "TV_TRADING_LIMIT_BUY_PYRAMID": 0.001,
         "TV_PYRAMID": true,
         "TV_TRADING_LIMIT_SELL": 0.001,
         "TV_PROTECTION": false,
         "TV_TRADING_LIMIT_CAP": 0.0001,
         "TV_STOPLOSS_PERCENTAGE": 60,
+        "RETRY_TV_ORDER": false,
         "VERBOSE": true,
         "WATCH_MODE": false,
         "MINIMUM_VOLUME_GOOD_CURRENCY": 200,
