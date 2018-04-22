@@ -1,7 +1,7 @@
 {
     "version": {
-        "version": 73,
-        "gb_version": "942_b_495"
+        "version": 74,
+        "gb_version": "942_b_509"
     },
     "pairs": {
         "poloniex": {
@@ -98,50 +98,8 @@
             "PERIOD": 15,
             "EMA1": 16,
             "EMA2": 8,
-            "HIGH_BB": 45,
-            "LOW_BB": 45,
-            "STDV": 2,
-            "SMAPERIOD": 50,
-            "SLOW_SMA": 1,
-            "FAST_SMA": 2,
-            "MACD_SHORT": 5,
-            "MACD_LONG": 20,
-            "MACD_SIGNAL": 10,
-            "STOCH_ENABLED": false,
-            "STOCH_BUY_LEVEL": 20,
-            "STOCH_SELL_LEVEL": 80,
-            "STOCH_K": 14,
-            "SLOW_STOCH_K": 3,
-            "STOCH_D": 3,
-            "RSI_BUY_ENABLED": false,
-            "RSI_SELL_ENABLED": false,
-            "RSI_BUY_LEVEL": 30,
-            "RSI_SELL_LEVEL": 70,
-            "MFI_ENABLED": false,
-            "MFI_SELL_LEVEL": 30,
-            "MFI_BUY_LEVEL": 70,
             "OKKIES_MODE": false,
             "BTC_MONEY_FLOW": 35,
-
-            "DOUBLE_UP": false,
-            "DOUBLE_UP_CAP": 1,
-            "DU_CAP_COUNT": 0,
-            "DU_METHOD": "HIGHBB",
-            "DU_BUYDOWN": 2,
-            "RSI_DU_BUY": 30,
-
-            "RT_ENABLED": false,
-            "RT_MAXBAG_PROTECTION": 10,
-            "RT_BUY_BUYDOWN": 2,
-            "RT_SELL_BUYDOWN": 1,
-            "AIRDROP": false,
-
-            "TRAIL_ME_SELL": false,
-            "TRAIL_ME_BUY": false,
-            "TRAIL_ME_RT": false,
-            "TRAIL_ME_DU": false,
-            "TRAIL_ME_SELL_RANGE": 0.5,
-            "TRAIL_ME_BUY_RANGE": 0.5,
 
             "PANIC_SELL": false,
             "STOP_LIMIT": 60,
