@@ -1,6 +1,6 @@
 {
     "version": {
-        "version": 77,
+        "version": 78,
         "gb_version": "943_b_516"
     },
     "pairs": {
@@ -2066,6 +2066,7 @@
         "TV_PROTECTION": false,
         "TV_TRADING_LIMIT_CAP": 0.0001,
         "TV_STOPLOSS_PERCENTAGE": 60,
+        "TV_TRADING_LIMIT_ALLIN": false,
         "RETRY_TV_ORDER": false,
         "VERBOSE": true,
         "WATCH_MODE": false,
