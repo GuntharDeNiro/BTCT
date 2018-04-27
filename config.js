@@ -2048,7 +2048,7 @@
     "bot": {
         "debug": false,
         "BEST_CURRENCIES": false,
-        "BOT_DELAY": 1,
+        "BOT_DELAY": 20,
         "BOT_CCLEAN": 2,
         "CANCEL_ORDERS_ENABLED": true,
         "CANCEL_ORDERS_CYCLE_CAP": 1,
