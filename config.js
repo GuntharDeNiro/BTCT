@@ -1,7 +1,7 @@
 {
     "version": {
-        "version": 78,
-        "gb_version": "943_b_516"
+        "version": 79,
+        "gb_version": "951_b_531"
     },
     "pairs": {
         "poloniex": {
