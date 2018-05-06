@@ -2057,7 +2057,6 @@
         "period_storage_ticker": 2000,
         "timeout_buy": 60000,
         "timeout_sell": 60000,
-        "PYRAMID_BUY": true,
         "TV_GAIN": 0.6,
         "TV_TRADING_LIMIT_BUY": 0.001,
         "TV_TRADING_LIMIT_BUY_PYRAMID": 0.001,
