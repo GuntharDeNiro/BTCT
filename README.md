@@ -1,4 +1,4 @@
-`Current Gunbot version : v12.8.1 build 997
+`Current Gunbot version : v12.8.3 
 
 
 - Official Stable Releases [HERE](https://github.com/GuntharDeNiro/BTCT/releases)
