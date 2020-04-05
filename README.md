@@ -1,5 +1,5 @@
-Current Gunbot version : v18.3.7
+Current Gunbot version: v18.3.9
+- Official Stable Releases: [HERE](https://github.com/GuntharDeNiro/BTCT/releases/tag/1839)
 
-
-- Official Stable Releases: [HERE](https://github.com/GuntharDeNiro/BTCT/releases)
-- Official Starter Edition Releases: [HERE](https://github.com/GuntharDeNiro/Gunthy/releases)
+Current Gunbot Starter version: v16
+- Official Starter Edition Release: [HERE](https://github.com/GuntharDeNiro/BTCT/releases/tag/1699S)
