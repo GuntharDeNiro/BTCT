@@ -1,5 +1,5 @@
-Current Gunbot version: v21.1.0
-- Official Stable Releases: [HERE](https://github.com/GuntharDeNiro/BTCT/releases/tag/2110)
+Current Gunbot version: v22
+- Official Stable Releases: [HERE](https://github.com/GuntharDeNiro/BTCT/releases/tag/22)
 - Starter Editions: [HERE](https://github.com/GuntharDeNiro/BTCT/releases/tag/2163)
 
 
