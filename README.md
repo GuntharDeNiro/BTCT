@@ -1,3 +1,9 @@
+# Gunbot
+
+[Gunbot](https://www.gunbot.com/) is crypto trading automation software for Windows, macOS, and Linux. The trading core runs on your own computer, VPS, or server, with exchange API secrets stored on your own infrastructure.
+
+For installation guides, exchange setup, and troubleshooting, see the [Gunbot documentation and support resources](https://www.gunbot.com/support/).
+
 ## New download location
 
 From now on we'll publish new Gunbot releases on our own site: [https://www.gunbot.com/downloads/](https://www.gunbot.com/downloads/)
